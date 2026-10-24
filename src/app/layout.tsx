@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "GitHub activity",
-  description: "Live activity across our public GitHub repositories",
+  title: "Space portfolio · GitHub",
+  description: "The public projects of this space: what they are, where they run and what was pushed lately",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

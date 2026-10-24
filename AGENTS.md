@@ -7,3 +7,9 @@ This version has breaking changes — APIs, conventions, and file structure may 
 This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
 
 <!-- END:nextjs-agent-rules -->
+
+## This project
+
+- Static portfolio: pages read only `src/data/snapshot.json`. Never add a runtime GitHub call or a token to Vercel.
+- To change what is shown, edit `portfolio.json`, then run `npm run snapshot` (uses the local `gh` login).
+- Deploy with the Vercel CLI to team quirq-research (`vercel deploy --prod --scope quirq-research`).

@@ -1,30 +1,31 @@
-# GitHub activity
+# Space portfolio · GitHub
 
-A small public dashboard of activity across our **public** GitHub repositories:
-commits per week, a live event feed, and a card per repo (language, CI status,
-open PRs/issues, latest release, 12-week commit sparkline).
+A public portfolio of this space's GitHub work: a card per project with what it
+is, where it runs (live links), its latest commits and merged pull requests,
+plus commits per week and a recent-activity feed. Its sibling is the Vercel
+portfolio, https://vercel-activity-delta.vercel.app.
 
 ## How it works
 
-- Next.js (App Router, Cache Components) on Vercel.
-- All GitHub calls run on the server (`src/lib/github.ts`, marked `server-only`).
-  The token is read from `GITHUB_TOKEN` and never reaches the browser.
-- Only `privacy: PUBLIC` repos are queried, and results are filtered again by
-  `isPrivate` and owner. Feed events are kept only if their repo is in that public set,
-  and repo pages 404 for anything outside it.
-- Data is cached and refreshed in the background every 5 minutes.
+- `portfolio.json` lists the projects shown, with the space's own description
+  and live links for each. Only these repos are fetched, and each must be public.
+- `npm run snapshot` fetches them from GitHub and writes `src/data/snapshot.json`.
+  It runs on a developer machine, using `GITHUB_TOKEN` if set or else the local
+  `gh` login. The token is never written to the snapshot.
+- The site is fully static (Next.js on Vercel). It reads only the committed
+  snapshot: no token on Vercel, no GitHub calls at runtime.
 
-## Configuration
+## Refresh
 
-| Variable | Purpose |
-| --- | --- |
-| `GITHUB_TOKEN` | Fine-grained PAT, **Public repositories (read-only)** |
-| `GITHUB_OWNERS` | Comma-separated users/orgs to include (default `quirq-ai,quirq-gates`) |
+```bash
+npm run snapshot                     # update src/data/snapshot.json
+git commit -am "Refresh snapshot"
+vercel deploy --prod --scope quirq-research
+```
 
 ## Develop
 
 ```bash
-cp .env.example .env.local   # add a token
 npm install
 npm run dev
 ```

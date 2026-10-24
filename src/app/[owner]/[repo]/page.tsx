@@ -1,53 +1,66 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Suspense } from "react";
 import { CiBadge } from "@/components/ci-badge";
 import { Feed } from "@/components/feed";
 import { Header } from "@/components/header";
+import { Links } from "@/components/links";
 import { Stat } from "@/components/stat";
 import { TimeAgo } from "@/components/time-ago";
 import { WeeklyChart } from "@/components/weekly-chart";
-import { getDashboard, getRepoDetail } from "@/lib/github";
+import { getRepo, getSnapshot, type Pull } from "@/lib/github";
 
-export async function generateStaticParams() {
-  const d = await getDashboard();
-  const params = d.repos.map((r) => ({ owner: r.owner, repo: r.name }));
-  // Cache Components needs at least one param at build time; the placeholder 404s.
-  return params.length > 0 ? params : [{ owner: "_", repo: "_" }];
+export function generateStaticParams() {
+  return getSnapshot().repos.map((r) => ({ owner: r.owner, repo: r.name }));
 }
 
-export default function RepoPage(props: PageProps<"/[owner]/[repo]">) {
+// The site is a static snapshot: anything not in it is a 404.
+export const dynamicParams = false;
+
+function PullList({ pulls, empty }: { pulls: Pull[]; empty: string }) {
+  if (pulls.length === 0) return <p className="text-sm text-ink-3">{empty}</p>;
   return (
-    <Suspense fallback={<div className="p-6 text-sm text-ink-3">Loading…</div>}>
-      <RepoView params={props.params} />
-    </Suspense>
+    <ol className="divide-y divide-border">
+      {pulls.map((p) => (
+        <li key={p.number} className="flex items-baseline gap-3 py-2 text-sm">
+          <a href={p.url} target="_blank" rel="noreferrer" className="font-mono text-xs text-accent hover:underline">
+            #{p.number}
+          </a>
+          <a href={p.url} target="_blank" rel="noreferrer" className="min-w-0 flex-1 truncate text-ink hover:underline" title={p.title}>
+            {p.draft && <span className="mr-1 text-ink-3">[draft]</span>}
+            {p.title}
+          </a>
+          <span className="shrink-0 text-xs text-ink-3">
+            {p.author} · <TimeAgo iso={p.at} />
+          </span>
+        </li>
+      ))}
+    </ol>
   );
 }
 
-async function RepoView({ params }: Pick<PageProps<"/[owner]/[repo]">, "params">) {
+export default async function RepoPage({ params }: PageProps<"/[owner]/[repo]">) {
   const { owner, repo: name } = await params;
-  const d = await getDashboard();
-  // Only repos that made it into the public list can be viewed.
-  const repo = d.repos.find((r) => r.fullName.toLowerCase() === `${owner}/${name}`.toLowerCase());
+  const d = getSnapshot();
+  // Only projects listed in the snapshot can be viewed.
+  const repo = getRepo(owner, name);
   if (!repo) notFound();
-  const detail = await getRepoDetail(repo.owner, repo.name);
   const feed = d.feed.filter((e) => e.repo.toLowerCase() === repo.fullName.toLowerCase());
 
   return (
     <>
-      <Header owners={d.owners} fetchedAt={d.fetchedAt} />
+      <Header title={d.title} owners={d.owners} siblings={d.siblings} />
       <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-6 sm:px-6">
         <Link href="/" className="text-sm text-ink-3 hover:text-ink">
-          ← All repositories
+          ← All projects
         </Link>
         <div className="mt-3 flex flex-wrap items-start justify-between gap-4">
-          <div>
+          <div className="max-w-3xl">
             <h1 className="text-2xl font-semibold tracking-tight">
               <span className="font-normal text-ink-3">{repo.owner} / </span>
               {repo.name}
             </h1>
-            {repo.description && <p className="mt-1 max-w-2xl text-ink-2">{repo.description}</p>}
-            <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-ink-3">
+            {(repo.about ?? repo.description) && <p className="mt-2 text-ink-2">{repo.about ?? repo.description}</p>}
+            <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-ink-3">
               {repo.language && (
                 <span className="inline-flex items-center gap-1.5">
                   <span className="size-2.5 rounded-full" style={{ background: repo.language.color ?? "var(--text-muted)" }} />
@@ -65,6 +78,7 @@ async function RepoView({ params }: Pick<PageProps<"/[owner]/[repo]">, "params">
                 </a>
               )}
             </div>
+            <Links links={repo.links} className="mt-3" />
           </div>
           <a
             href={repo.url}
@@ -100,18 +114,18 @@ async function RepoView({ params }: Pick<PageProps<"/[owner]/[repo]">, "params">
         <div className="mt-6 grid gap-6 lg:grid-cols-2">
           <section className="rounded-lg border border-border bg-surface-1 p-4">
             <h2 className="mb-2 text-sm font-semibold">Latest commits</h2>
-            {!detail?.commits.length ? (
+            {repo.commits.length === 0 ? (
               <p className="text-sm text-ink-3">No commits to show.</p>
             ) : (
               <ol className="divide-y divide-border">
-                {detail.commits.map((c) => (
+                {repo.commits.map((c) => (
                   <li key={c.oid} className="flex items-baseline gap-3 py-2 text-sm">
                     <a href={c.url} target="_blank" rel="noreferrer" className="font-mono text-xs text-accent hover:underline">
                       {c.shortOid}
                     </a>
-                    <span className="min-w-0 flex-1 truncate text-ink" title={c.headline}>
+                    <a href={c.url} target="_blank" rel="noreferrer" className="min-w-0 flex-1 truncate text-ink hover:underline" title={c.headline}>
                       {c.headline}
-                    </span>
+                    </a>
                     <span className="shrink-0 text-xs text-ink-3">
                       {c.author} · <TimeAgo iso={c.committedAt} />
                     </span>
@@ -120,31 +134,21 @@ async function RepoView({ params }: Pick<PageProps<"/[owner]/[repo]">, "params">
               </ol>
             )}
           </section>
-          <section className="rounded-lg border border-border bg-surface-1 p-4">
-            <h2 className="mb-2 text-sm font-semibold">Open pull requests</h2>
-            {!detail?.pulls.length ? (
-              <p className="text-sm text-ink-3">No open pull requests.</p>
-            ) : (
-              <ol className="divide-y divide-border">
-                {detail.pulls.map((p) => (
-                  <li key={p.number} className="flex items-baseline gap-3 py-2 text-sm">
-                    <a href={p.url} target="_blank" rel="noreferrer" className="font-mono text-xs text-accent hover:underline">
-                      #{p.number}
-                    </a>
-                    <span className="min-w-0 flex-1 truncate text-ink" title={p.title}>
-                      {p.draft && <span className="mr-1 text-ink-3">[draft]</span>}
-                      {p.title}
-                    </span>
-                    <span className="shrink-0 text-xs text-ink-3">
-                      {p.author} · <TimeAgo iso={p.updatedAt} />
-                    </span>
-                  </li>
-                ))}
-              </ol>
-            )}
-          </section>
+          <div className="flex flex-col gap-6">
+            <section className="rounded-lg border border-border bg-surface-1 p-4">
+              <h2 className="mb-2 text-sm font-semibold">Recently merged</h2>
+              <PullList pulls={repo.mergedPulls} empty="No merged pull requests." />
+            </section>
+            <section className="rounded-lg border border-border bg-surface-1 p-4">
+              <h2 className="mb-2 text-sm font-semibold">Open pull requests</h2>
+              <PullList pulls={repo.openPulls} empty="No open pull requests." />
+            </section>
+          </div>
         </div>
       </main>
+      <footer className="mx-auto w-full max-w-6xl px-4 py-6 text-xs text-ink-3 sm:px-6">
+        Snapshot of GitHub taken <TimeAgo iso={d.takenAt} />.
+      </footer>
     </>
   );
 }

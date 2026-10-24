@@ -1,0 +1,68 @@
+{
+  "$comment": "What the portfolio shows. Only these repos are fetched by `npm run snapshot`; each must be public.",
+  "title": "Space portfolio",
+  "tagline": "The public work of this space: every project, what it is, where it runs and what was pushed lately.",
+  "siblings": [
+    {
+      "label": "Vercel",
+      "url": "https://vercel-activity-delta.vercel.app"
+    }
+  ],
+  "repos": [
+    {
+      "repo": "quirq-ai/xo",
+      "about": "xo is the command line for the XO Cloud API: every endpoint is a command, and it sends your XO API key without ever printing it. It creates spaces (Codex, Claude Code or OpenClaw agents) with their settings, turns a folder of git repos into one GitHub repo, creates projects from an empty or existing repo, and lists connection details for spaces you own. Python standard library only, installed with pip as quirq-xo.",
+      "links": [
+        {
+          "label": "xo.quirq.dev",
+          "url": "https://xo.quirq.dev"
+        }
+      ]
+    },
+    {
+      "repo": "sharmasuraj0123/xo-coworker",
+      "about": "xo-coworker (codename xo-swim) is XO Space's web UI for the projects-chat backend, built to protect the person's attention. Home ranks what is worth your time across projects; a Needs-you panel shows one decision at a time; projects, threads and the workspace coordinator each have their own view, with file uploads and live updates over SSE. Plain HTML, CSS and ES modules with no build step; serve.py serves it and safely proxies /api/* to the XO Space API. Sending a message starts real agents.",
+      "links": []
+    },
+    {
+      "repo": "quirq-ai/space-hub",
+      "about": "spacehub is git hosting for agents, stored in SpacetimeDB. Agents own spaces (agent/space, like GitHub's owner/repo) and push to them; builders record who wrote the code. The server is a Docker image running a SpacetimeDB module with a web UI; the client is the gh-style spacehub CLI plus git-remote-quirq, so plain git can push and pull quirq:// URLs. Its main job is keeping the git trees of different machines, sandboxes and agents in sync, live.",
+      "links": []
+    },
+    {
+      "repo": "quirq-ai/qq",
+      "about": "qq is the quirq infra command line, modeled on Chromium's depot_tools. It wraps git and gh, and every quirq repo pins the qq version it runs in its manifest (infra/repo.toml), so qq installs and runs exactly that version and updates itself when the pin moves. It fetches repos, syncs manifests, sets up toolchains, and runs builds and tests through recipes; other repos can add subcommands. Long-running commands return a run ID at once and report the verdict later, so agents never block on a build.",
+      "links": []
+    },
+    {
+      "repo": "quirq-ai/quirqy",
+      "about": "Quirqy is a browser app for exploring a GitHub repository, its history and the people around it in interactive 3D. Data Lab shows files and commit history; Activity Lab shows pull requests, issues, reviews, comments, forks and contributors, each with a timeline you can play and scrub. It loads any public repo by URL with no backend, token or account. Built with Vite on Observatory's shared 3D engine; work happens on the quirq branch.",
+      "links": [
+        {
+          "label": "quirqy.vercel.app",
+          "url": "https://quirqy.vercel.app"
+        }
+      ]
+    },
+    {
+      "repo": "quirq-gates/vercel-activity",
+      "about": "vercel-activity is a small public Next.js dashboard, deployed on Vercel, of deployment activity for the Vercel projects deployed from this workspace (chosen in workspace.json), plus an /account page with the connected Vercel account and its domains. A server-only VERCEL_TOKEN reads the Vercel API; only allowlisted public-safe fields reach the page, cached 5 min.",
+      "links": [
+        {
+          "label": "Live site",
+          "url": "https://vercel-activity-delta.vercel.app"
+        }
+      ]
+    },
+    {
+      "repo": "quirq-gates/github-activity",
+      "about": "github-activity is this page: a public portfolio of the space's GitHub work. A card per project with what it is, where it runs, its latest commits and merged pull requests, plus weekly commits and a recent-activity feed. Built with Next.js on Vercel as a static site: a local script takes a snapshot of public GitHub data, so the site holds no token and makes no API calls.",
+      "links": [
+        {
+          "label": "Live site",
+          "url": "https://github-activity-bay.vercel.app"
+        }
+      ]
+    }
+  ]
+}

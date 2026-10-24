@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { Repo } from "@/lib/github";
 import { CiBadge } from "./ci-badge";
+import { Links } from "./links";
 import { Sparkline } from "./sparkline";
 import { TimeAgo } from "./time-ago";
 
@@ -20,7 +21,7 @@ export function RepoList({ repos, weekStarts }: { repos: Repo[]; weekStarts: str
     const list = repos.filter(
       (r) =>
         (showArchived || !r.archived) &&
-        (!q || r.fullName.toLowerCase().includes(q) || r.description?.toLowerCase().includes(q) || r.language?.name.toLowerCase().includes(q)),
+        (!q || r.fullName.toLowerCase().includes(q) || (r.about ?? r.description)?.toLowerCase().includes(q) || r.language?.name.toLowerCase().includes(q)),
     );
     const by: Record<Sort, (a: Repo, b: Repo) => number> = {
       pushed: (a, b) => (b.pushedAt ?? "").localeCompare(a.pushedAt ?? ""),
@@ -40,7 +41,7 @@ export function RepoList({ repos, weekStarts }: { repos: Repo[]; weekStarts: str
           type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Filter by name, description, language"
+          placeholder="Filter projects by name, description, language"
           className="h-9 min-w-56 flex-1 rounded-md border border-border bg-surface-1 px-3 text-sm placeholder:text-ink-3 focus:outline-2 focus:outline-accent"
         />
         <select
@@ -63,40 +64,41 @@ export function RepoList({ repos, weekStarts }: { repos: Repo[]; weekStarts: str
       </div>
       <ul className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
         {shown.map((r) => (
-          <li key={r.fullName}>
-            <Link
-              href={`/${r.fullName}`}
-              className="flex h-full flex-col gap-2 rounded-lg border border-border bg-surface-1 p-4 transition-colors hover:border-accent"
-            >
-              <div className="flex items-start justify-between gap-3">
-                <div className="min-w-0">
-                  <p className="truncate text-xs text-ink-3">{r.owner}</p>
-                  <p className="truncate font-semibold text-ink">
-                    {r.name}
-                    {r.archived && <span className="ml-2 rounded border border-border px-1 text-[10px] font-normal text-ink-3">archived</span>}
-                    {r.fork && <span className="ml-2 rounded border border-border px-1 text-[10px] font-normal text-ink-3">fork</span>}
-                  </p>
-                </div>
-                <Sparkline values={r.weekly} weekStarts={weekStarts} label={r.name} />
+          <li key={r.fullName} className="relative flex h-full flex-col gap-2 rounded-lg border border-border bg-surface-1 p-4 transition-colors hover:border-accent">
+            <div className="flex items-start justify-between gap-3">
+              <div className="min-w-0">
+                <p className="truncate text-xs text-ink-3">{r.owner}</p>
+                <Link href={`/${r.fullName}`} className="block truncate font-semibold text-ink after:absolute after:inset-0">
+                  {r.name}
+                  {r.archived && <span className="ml-2 rounded border border-border px-1 text-[10px] font-normal text-ink-3">archived</span>}
+                  {r.fork && <span className="ml-2 rounded border border-border px-1 text-[10px] font-normal text-ink-3">fork</span>}
+                </Link>
               </div>
-              <p className="line-clamp-2 min-h-10 text-sm text-ink-2">{r.description ?? <span className="text-ink-3">No description</span>}</p>
-              <div className="mt-auto flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-ink-3">
-                {r.language && (
-                  <span className="inline-flex items-center gap-1">
-                    <span className="size-2 rounded-full" style={{ background: r.language.color ?? "var(--text-muted)" }} />
-                    {r.language.name}
-                  </span>
-                )}
-                <CiBadge state={r.ci} />
-                <span title="Open pull requests">{r.openPRs} PRs</span>
-                <span title="Open issues">{r.openIssues} issues</span>
-                {r.stars > 0 && <span>★ {r.stars}</span>}
-                {r.release && <span className="font-mono">{r.release.tag}</span>}
-                <span className="ml-auto">
-                  pushed <TimeAgo iso={r.pushedAt} />
+              <Sparkline values={r.weekly} weekStarts={weekStarts} label={r.name} />
+            </div>
+            <p className="line-clamp-3 min-h-15 text-sm text-ink-2">{r.about ?? r.description ?? <span className="text-ink-3">No description</span>}</p>
+            {r.commits[0] && (
+              <p className="truncate text-xs text-ink-3" title={r.commits[0].headline}>
+                Latest: <span className="text-ink-2">{r.commits[0].headline}</span>
+              </p>
+            )}
+            <Links links={r.links} />
+            <div className="mt-auto flex flex-wrap items-center gap-x-3 gap-y-1 pt-1 text-xs text-ink-3">
+              {r.language && (
+                <span className="inline-flex items-center gap-1">
+                  <span className="size-2 rounded-full" style={{ background: r.language.color ?? "var(--text-muted)" }} />
+                  {r.language.name}
                 </span>
-              </div>
-            </Link>
+              )}
+              <CiBadge state={r.ci} />
+              <span title="Open pull requests">{r.openPRs} PRs</span>
+              <span title="Open issues">{r.openIssues} issues</span>
+              {r.stars > 0 && <span>★ {r.stars}</span>}
+              {r.release && <span className="font-mono">{r.release.tag}</span>}
+              <span className="ml-auto">
+                pushed <TimeAgo iso={r.pushedAt} />
+              </span>
+            </div>
           </li>
         ))}
       </ul>

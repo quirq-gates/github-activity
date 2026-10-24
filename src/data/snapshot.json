@@ -1,0 +1,2538 @@
+{
+  "takenAt": "2026-10-24T06:13:16.384Z",
+  "title": "Space portfolio",
+  "tagline": "The public work of this space: every project, what it is, where it runs and what was pushed lately.",
+  "siblings": [
+    {
+      "label": "Vercel",
+      "url": "https://vercel-activity-delta.vercel.app"
+    }
+  ],
+  "owners": [
+    {
+      "login": "quirq-ai",
+      "url": "https://github.com/quirq-ai",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/308877545?v=4"
+    },
+    {
+      "login": "sharmasuraj0123",
+      "url": "https://github.com/sharmasuraj0123",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+    },
+    {
+      "login": "quirq-gates",
+      "url": "https://github.com/quirq-gates",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+    }
+  ],
+  "repos": [
+    {
+      "owner": "quirq-ai",
+      "name": "xo",
+      "fullName": "quirq-ai/xo",
+      "url": "https://github.com/quirq-ai/xo",
+      "about": "xo is the command line for the XO Cloud API: every endpoint is a command, and it sends your XO API key without ever printing it. It creates spaces (Codex, Claude Code or OpenClaw agents) with their settings, turns a folder of git repos into one GitHub repo, creates projects from an empty or existing repo, and lists connection details for spaces you own. Python standard library only, installed with pip as quirq-xo.",
+      "description": "product: xo, the command line for the XO Cloud API",
+      "links": [
+        {
+          "label": "xo.quirq.dev",
+          "url": "https://xo.quirq.dev"
+        }
+      ],
+      "language": {
+        "name": "Python",
+        "color": "#3572A5"
+      },
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 14,
+      "openPRs": 0,
+      "pushedAt": "2026-10-23T20:57:45Z",
+      "archived": false,
+      "fork": false,
+      "defaultBranch": "main",
+      "ci": "SUCCESS",
+      "release": {
+        "tag": "v0",
+        "publishedAt": "2026-10-20T21:47:13Z",
+        "url": "https://github.com/quirq-ai/xo/releases/tag/v0"
+      },
+      "weekly": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        35,
+        35
+      ],
+      "commits": [
+        {
+          "oid": "593cda7523d13cffb68fb34cfd75cc5448d920c9",
+          "shortOid": "593cda7",
+          "headline": "Quickstart: install xo at 38361fb (#87)",
+          "url": "https://github.com/quirq-ai/xo/commit/593cda7523d13cffb68fb34cfd75cc5448d920c9",
+          "committedAt": "2026-10-23T20:57:42Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "38361fb016d1d589ee0aa659ef383d166fa536a4",
+          "shortOid": "38361fb",
+          "headline": "Follow-ups to #84: login wording, --github with KIND refused, hub-to-…",
+          "url": "https://github.com/quirq-ai/xo/commit/38361fb016d1d589ee0aa659ef383d166fa536a4",
+          "committedAt": "2026-10-23T20:51:51Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "9bbb460912d6a965be312a2b7f6327020a25f982",
+          "shortOid": "9bbb460",
+          "headline": "xo create space goes to the quirq hub only; GitHub needs --github (#84)",
+          "url": "https://github.com/quirq-ai/xo/commit/9bbb460912d6a965be312a2b7f6327020a25f982",
+          "committedAt": "2026-10-23T20:44:02Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "398c0e70359403fae3d8adb14d8982f4f6dd102f",
+          "shortOid": "398c0e7",
+          "headline": "Quickstart: install xo at 8c06611 (#83)",
+          "url": "https://github.com/quirq-ai/xo/commit/398c0e70359403fae3d8adb14d8982f4f6dd102f",
+          "committedAt": "2026-10-23T13:17:40Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "8c06611b07818977f6bd3b472c2564882c8b5c68",
+          "shortOid": "8c06611",
+          "headline": "xo create space puts a folder space on the quirq hub once xo login fi…",
+          "url": "https://github.com/quirq-ai/xo/commit/8c06611b07818977f6bd3b472c2564882c8b5c68",
+          "committedAt": "2026-10-23T13:10:49Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "1ef9c0422bad4d76aad4b170427b552e4dc3fc01",
+          "shortOid": "1ef9c04",
+          "headline": "Spaces work through the quirq hub once xo login finds one (#80)",
+          "url": "https://github.com/quirq-ai/xo/commit/1ef9c0422bad4d76aad4b170427b552e4dc3fc01",
+          "committedAt": "2026-10-23T12:30:56Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "a160906130beaab00a06de7e4222b1779ee6ab2c",
+          "shortOid": "a160906",
+          "headline": "Server: hub cutover fixes before XO_HUB_URL is set (#79)",
+          "url": "https://github.com/quirq-ai/xo/commit/a160906130beaab00a06de7e4222b1779ee6ab2c",
+          "committedAt": "2026-10-23T11:58:15Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "f5c855dff6b793978ff54520f10e2b165a5605c3",
+          "shortOid": "f5c855d",
+          "headline": "Server: keep xo's data in the quirq hub when XO_HUB_URL is set (#78)",
+          "url": "https://github.com/quirq-ai/xo/commit/f5c855dff6b793978ff54520f10e2b165a5605c3",
+          "committedAt": "2026-10-23T11:44:38Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "0546efd2f6f0839496ba5c64e9785fdd6c55d7c8",
+          "shortOid": "0546efd",
+          "headline": "Quickstart: install xo at 520c0a0 (#77)",
+          "url": "https://github.com/quirq-ai/xo/commit/0546efd2f6f0839496ba5c64e9785fdd6c55d7c8",
+          "committedAt": "2026-10-22T12:52:07Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "520c0a001045e799774be16ad018fc3a369cbcea",
+          "shortOid": "520c0a0",
+          "headline": "Auto-update xo to qq-setup's reviewed commit, when setup turned it on…",
+          "url": "https://github.com/quirq-ai/xo/commit/520c0a001045e799774be16ad018fc3a369cbcea",
+          "committedAt": "2026-10-22T12:46:54Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "37a14d851a0c50462bc42dc965e44eda7c84ad97",
+          "shortOid": "37a14d8",
+          "headline": "Quickstart: install xo at 097249f (#75)",
+          "url": "https://github.com/quirq-ai/xo/commit/37a14d851a0c50462bc42dc965e44eda7c84ad97",
+          "committedAt": "2026-10-22T12:21:08Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "097249f1020740e4a0ab02e25d36f0f87b9007d4",
+          "shortOid": "097249f",
+          "headline": "create space NAME: make ./NAME when it is not there (#73)",
+          "url": "https://github.com/quirq-ai/xo/commit/097249f1020740e4a0ab02e25d36f0f87b9007d4",
+          "committedAt": "2026-10-22T12:17:11Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "8cd425e040a3f5aaed7294f08a38922f60c0b879",
+          "shortOid": "8cd425e",
+          "headline": "Quickstart: install xo at d027963 (#72)",
+          "url": "https://github.com/quirq-ai/xo/commit/8cd425e040a3f5aaed7294f08a38922f60c0b879",
+          "committedAt": "2026-10-22T08:25:34Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "d027963f29237c84acfc2cb52296dc625fce1d87",
+          "shortOid": "d027963",
+          "headline": "xo create space [NAME]: no name is this folder, NAME is ./NAME, an ex…",
+          "url": "https://github.com/quirq-ai/xo/commit/d027963f29237c84acfc2cb52296dc625fce1d87",
+          "committedAt": "2026-10-22T08:19:39Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "43078fb59015e6053dfb6bd317cee1ecd36add7f",
+          "shortOid": "43078fb",
+          "headline": "Quickstart: install xo at 80681c1 (#70)",
+          "url": "https://github.com/quirq-ai/xo/commit/43078fb59015e6053dfb6bd317cee1ecd36add7f",
+          "committedAt": "2026-10-22T06:48:39Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "80681c169e02356ce37ea6647eb25a681cdbdaac",
+          "shortOid": "80681c1",
+          "headline": "xo create space NAME: each git repository becomes a branch, not each …",
+          "url": "https://github.com/quirq-ai/xo/commit/80681c169e02356ce37ea6647eb25a681cdbdaac",
+          "committedAt": "2026-10-22T06:43:14Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "5fd030d8c4fc7c249b0d3fb3153a1e96ee1cc4c7",
+          "shortOid": "5fd030d",
+          "headline": "Quickstart: install xo at ca83435 (#68)",
+          "url": "https://github.com/quirq-ai/xo/commit/5fd030d8c4fc7c249b0d3fb3153a1e96ee1cc4c7",
+          "committedAt": "2026-10-21T20:33:58Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "ca83435b282a88b2f91e6af86933849d9b88221f",
+          "shortOid": "ca83435",
+          "headline": "xo create space NAME: this folder becomes a space on GitHub (#66)",
+          "url": "https://github.com/quirq-ai/xo/commit/ca83435b282a88b2f91e6af86933849d9b88221f",
+          "committedAt": "2026-10-21T20:25:49Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "33fd15b6a990987874479f650cfed7b700a436eb",
+          "shortOid": "33fd15b",
+          "headline": "xo connect: ask \"did you mean\" before suggesting project: for reverse…",
+          "url": "https://github.com/quirq-ai/xo/commit/33fd15b6a990987874479f650cfed7b700a436eb",
+          "committedAt": "2026-10-21T18:36:09Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "8344bf838a5567ff89e4e0ba2eeded57a252af37",
+          "shortOid": "8344bf8",
+          "headline": "Quickstart: install xo at 10937c6 (#64)",
+          "url": "https://github.com/quirq-ai/xo/commit/8344bf838a5567ff89e4e0ba2eeded57a252af37",
+          "committedAt": "2026-10-21T18:16:55Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        }
+      ],
+      "openPulls": [],
+      "mergedPulls": [
+        {
+          "number": 87,
+          "title": "Quickstart: install xo at 38361fb",
+          "url": "https://github.com/quirq-ai/xo/pull/87",
+          "draft": false,
+          "at": "2026-10-23T20:57:43Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "number": 85,
+          "title": "Follow-ups to #84: login wording, --github with KIND refused, hub-to-GitHub test",
+          "url": "https://github.com/quirq-ai/xo/pull/85",
+          "draft": false,
+          "at": "2026-10-23T20:51:52Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "number": 84,
+          "title": "xo create space goes to the quirq hub only; GitHub needs --github",
+          "url": "https://github.com/quirq-ai/xo/pull/84",
+          "draft": false,
+          "at": "2026-10-23T20:44:02Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "number": 83,
+          "title": "Quickstart: install xo at 8c06611",
+          "url": "https://github.com/quirq-ai/xo/pull/83",
+          "draft": false,
+          "at": "2026-10-23T13:17:40Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "number": 81,
+          "title": "xo create space puts a folder space on the quirq hub once xo login finds one",
+          "url": "https://github.com/quirq-ai/xo/pull/81",
+          "draft": false,
+          "at": "2026-10-23T13:10:49Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "number": 80,
+          "title": "Spaces work through the quirq hub once xo login finds one",
+          "url": "https://github.com/quirq-ai/xo/pull/80",
+          "draft": false,
+          "at": "2026-10-23T12:30:57Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "number": 79,
+          "title": "Server: hub cutover fixes before XO_HUB_URL is set",
+          "url": "https://github.com/quirq-ai/xo/pull/79",
+          "draft": false,
+          "at": "2026-10-23T11:58:15Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "number": 78,
+          "title": "Server: keep xo's data in the quirq hub when XO_HUB_URL is set",
+          "url": "https://github.com/quirq-ai/xo/pull/78",
+          "draft": false,
+          "at": "2026-10-23T11:44:38Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "number": 77,
+          "title": "Quickstart: install xo at 520c0a0",
+          "url": "https://github.com/quirq-ai/xo/pull/77",
+          "draft": false,
+          "at": "2026-10-22T12:52:07Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "number": 74,
+          "title": "Auto-update xo to qq-setup's reviewed commit, when setup turned it on",
+          "url": "https://github.com/quirq-ai/xo/pull/74",
+          "draft": false,
+          "at": "2026-10-22T12:46:55Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "number": 75,
+          "title": "Quickstart: install xo at 097249f",
+          "url": "https://github.com/quirq-ai/xo/pull/75",
+          "draft": false,
+          "at": "2026-10-22T12:21:09Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "number": 73,
+          "title": "create space NAME: make ./NAME when it is not there",
+          "url": "https://github.com/quirq-ai/xo/pull/73",
+          "draft": false,
+          "at": "2026-10-22T12:17:12Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "number": 72,
+          "title": "Quickstart: install xo at d027963",
+          "url": "https://github.com/quirq-ai/xo/pull/72",
+          "draft": false,
+          "at": "2026-10-22T08:25:34Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "number": 71,
+          "title": "create space: optional NAME, ./NAME, and attach to an existing .git",
+          "url": "https://github.com/quirq-ai/xo/pull/71",
+          "draft": false,
+          "at": "2026-10-22T08:19:40Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "number": 70,
+          "title": "Quickstart: install xo at 80681c1",
+          "url": "https://github.com/quirq-ai/xo/pull/70",
+          "draft": false,
+          "at": "2026-10-22T06:48:39Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        }
+      ]
+    },
+    {
+      "owner": "sharmasuraj0123",
+      "name": "xo-coworker",
+      "fullName": "sharmasuraj0123/xo-coworker",
+      "url": "https://github.com/sharmasuraj0123/xo-coworker",
+      "about": "xo-coworker (codename xo-swim) is XO Space's web UI for the projects-chat backend, built to protect the person's attention. Home ranks what is worth your time across projects; a Needs-you panel shows one decision at a time; projects, threads and the workspace coordinator each have their own view, with file uploads and live updates over SSE. Plain HTML, CSS and ES modules with no build step; serve.py serves it and safely proxies /api/* to the XO Space API. Sending a message starts real agents.",
+      "description": null,
+      "links": [],
+      "language": {
+        "name": "JavaScript",
+        "color": "#f1e05a"
+      },
+      "stars": 0,
+      "forks": 1,
+      "openIssues": 1,
+      "openPRs": 1,
+      "pushedAt": "2026-10-22T16:10:16Z",
+      "archived": false,
+      "fork": false,
+      "defaultBranch": "main",
+      "ci": null,
+      "release": null,
+      "weekly": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        37
+      ],
+      "commits": [
+        {
+          "oid": "69021ff616ba29512d62c38c2dac0aaf10716142",
+          "shortOid": "69021ff",
+          "headline": "Merge pull request #33 from sharmasuraj0123/rework",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/commit/69021ff616ba29512d62c38c2dac0aaf10716142",
+          "committedAt": "2026-10-22T16:10:16Z",
+          "author": "KrishBhimani",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/126689784?v=4"
+        },
+        {
+          "oid": "72da92f5973f6af79921d05326621b59ede29c2e",
+          "shortOid": "72da92f",
+          "headline": "Hub #30: an image chip in the composer shows the picture",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/commit/72da92f5973f6af79921d05326621b59ede29c2e",
+          "committedAt": "2026-10-22T15:42:11Z",
+          "author": "dwivedi-ai",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/65527745?u=381979ae7b868a3d092d9c84f6a9c1912ca8567c&v=4"
+        },
+        {
+          "oid": "c7307dba8b43e4316a1947055749a25755ba4e08",
+          "shortOid": "c7307db",
+          "headline": "Hub #30: files on a message, and the hop when one project hands work …",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/commit/c7307dba8b43e4316a1947055749a25755ba4e08",
+          "committedAt": "2026-10-22T15:25:14Z",
+          "author": "dwivedi-ai",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/65527745?u=381979ae7b868a3d092d9c84f6a9c1912ca8567c&v=4"
+        },
+        {
+          "oid": "996a9ea8c16091f1ed555e1fa3bc3ef74c61bcd6",
+          "shortOid": "996a9ea",
+          "headline": "Add XO mark as favicon",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/commit/996a9ea8c16091f1ed555e1fa3bc3ef74c61bcd6",
+          "committedAt": "2026-10-22T15:05:12Z",
+          "author": "dwivedi-ai",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/65527745?u=381979ae7b868a3d092d9c84f6a9c1912ca8567c&v=4"
+        },
+        {
+          "oid": "d9b4db49fdf67e19ade61f64b6b91a460f916a30",
+          "shortOid": "d9b4db4",
+          "headline": "Remove demo mode and the Live/Demo badge",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/commit/d9b4db49fdf67e19ade61f64b6b91a460f916a30",
+          "committedAt": "2026-10-22T14:56:18Z",
+          "author": "dwivedi-ai",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/65527745?u=381979ae7b868a3d092d9c84f6a9c1912ca8567c&v=4"
+        },
+        {
+          "oid": "f187964cc9c1210d933d508f9f13de0a44fc6432",
+          "shortOid": "f187964",
+          "headline": "Hub #29: a turn's work folds to one line",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/commit/f187964cc9c1210d933d508f9f13de0a44fc6432",
+          "committedAt": "2026-10-22T14:56:18Z",
+          "author": "dwivedi-ai",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/65527745?u=381979ae7b868a3d092d9c84f6a9c1912ca8567c&v=4"
+        },
+        {
+          "oid": "0fd9563f6b82986e01d9534883af5c0c1138d984",
+          "shortOid": "0fd9563",
+          "headline": "Hub #28: the Workspace is a normal page, with lazy history",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/commit/0fd9563f6b82986e01d9534883af5c0c1138d984",
+          "committedAt": "2026-10-22T14:56:18Z",
+          "author": "dwivedi-ai",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/65527745?u=381979ae7b868a3d092d9c84f6a9c1912ca8567c&v=4"
+        },
+        {
+          "oid": "b280c1336b6a7f40fdc4bd334e217b102b58e8d7",
+          "shortOid": "b280c13",
+          "headline": "Hub #31: a project at work reads blue in the sidebar",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/commit/b280c1336b6a7f40fdc4bd334e217b102b58e8d7",
+          "committedAt": "2026-10-22T14:56:18Z",
+          "author": "dwivedi-ai",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/65527745?u=381979ae7b868a3d092d9c84f6a9c1912ca8567c&v=4"
+        },
+        {
+          "oid": "11d6af129d86c99c7624c5e5fa3395a506a0c6f4",
+          "shortOid": "11d6af1",
+          "headline": "Decisions: one Undo per decision, in place",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/commit/11d6af129d86c99c7624c5e5fa3395a506a0c6f4",
+          "committedAt": "2026-10-22T14:56:18Z",
+          "author": "dwivedi-ai",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/65527745?u=381979ae7b868a3d092d9c84f6a9c1912ca8567c&v=4"
+        },
+        {
+          "oid": "486b59b903c3e0fb54360307b42459b985629476",
+          "shortOid": "486b59b",
+          "headline": "Decisions: deciding a review item no longer throws",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/commit/486b59b903c3e0fb54360307b42459b985629476",
+          "committedAt": "2026-10-22T14:56:18Z",
+          "author": "dwivedi-ai",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/65527745?u=381979ae7b868a3d092d9c84f6a9c1912ca8567c&v=4"
+        },
+        {
+          "oid": "0d31f8183dfcb4f181a56f428b8a109af9acd7af",
+          "shortOid": "0d31f81",
+          "headline": "Tests: guard the Coder sign-in fix (c7f1e12)",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/commit/0d31f8183dfcb4f181a56f428b8a109af9acd7af",
+          "committedAt": "2026-10-22T12:23:03Z",
+          "author": "dwivedi-ai",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/65527745?u=381979ae7b868a3d092d9c84f6a9c1912ca8567c&v=4"
+        },
+        {
+          "oid": "711e7c9d05b1e2171b029de7feba932e6c635a25",
+          "shortOid": "711e7c9",
+          "headline": "Decisions: \"The rest is in the thread\" opens the thread",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/commit/711e7c9d05b1e2171b029de7feba932e6c635a25",
+          "committedAt": "2026-10-22T12:23:01Z",
+          "author": "dwivedi-ai",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/65527745?u=381979ae7b868a3d092d9c84f6a9c1912ca8567c&v=4"
+        },
+        {
+          "oid": "5460769f83b12bd653fd64b7c9d81e7c0a2c3e7c",
+          "shortOid": "5460769",
+          "headline": "if1 #7: a message relayed into a thread shows in that thread",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/commit/5460769f83b12bd653fd64b7c9d81e7c0a2c3e7c",
+          "committedAt": "2026-10-22T12:22:59Z",
+          "author": "dwivedi-ai",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/65527745?u=381979ae7b868a3d092d9c84f6a9c1912ca8567c&v=4"
+        },
+        {
+          "oid": "c8edea5a4314d122d805facff53d7e66f2c2d9cc",
+          "shortOid": "c8edea5",
+          "headline": "Light, not costume: a quiet sci-fi layer, after launchpad-demo",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/commit/c8edea5a4314d122d805facff53d7e66f2c2d9cc",
+          "committedAt": "2026-10-22T12:17:00Z",
+          "author": "dwivedi-ai",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/65527745?u=381979ae7b868a3d092d9c84f6a9c1912ca8567c&v=4"
+        },
+        {
+          "oid": "6fe5b36bbb2b25ce7fea2f3ff33a0a24bb45f385",
+          "shortOid": "6fe5b36",
+          "headline": "Hub #16-#20: project filter, Settings button, a calmer Settings, mode…",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/commit/6fe5b36bbb2b25ce7fea2f3ff33a0a24bb45f385",
+          "committedAt": "2026-10-22T12:16:53Z",
+          "author": "dwivedi-ai",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/65527745?u=381979ae7b868a3d092d9c84f6a9c1912ca8567c&v=4"
+        },
+        {
+          "oid": "d7f10e9e8103118c422e5c592509815db6c5245b",
+          "shortOid": "d7f10e9",
+          "headline": "Hub #21-#24, #26, #27: turn blocks, event lines and two headers line up",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/commit/d7f10e9e8103118c422e5c592509815db6c5245b",
+          "committedAt": "2026-10-22T12:16:42Z",
+          "author": "dwivedi-ai",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/65527745?u=381979ae7b868a3d092d9c84f6a9c1912ca8567c&v=4"
+        },
+        {
+          "oid": "3869325ad2128c3366e2da47a856b559268cda5d",
+          "shortOid": "3869325",
+          "headline": "if1 #2: shared files open in a viewer beside the conversation",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/commit/3869325ad2128c3366e2da47a856b559268cda5d",
+          "committedAt": "2026-10-22T12:16:30Z",
+          "author": "dwivedi-ai",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/65527745?u=381979ae7b868a3d092d9c84f6a9c1912ca8567c&v=4"
+        },
+        {
+          "oid": "4c88393edd080e73349c21ea657f9e794c223cce",
+          "shortOid": "4c88393",
+          "headline": "if1 #3: code blocks are coloured",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/commit/4c88393edd080e73349c21ea657f9e794c223cce",
+          "committedAt": "2026-10-22T12:16:22Z",
+          "author": "dwivedi-ai",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/65527745?u=381979ae7b868a3d092d9c84f6a9c1912ca8567c&v=4"
+        },
+        {
+          "oid": "7d8094b3fb678fbe022e343faaa18066038a0833",
+          "shortOid": "7d8094b",
+          "headline": "if1 #5: Details for a waiting thread is a short, formatted excerpt",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/commit/7d8094b3fb678fbe022e343faaa18066038a0833",
+          "committedAt": "2026-10-22T12:16:01Z",
+          "author": "dwivedi-ai",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/65527745?u=381979ae7b868a3d092d9c84f6a9c1912ca8567c&v=4"
+        },
+        {
+          "oid": "2fc28d64f64ab546001a81710c71ce90bc8c5b12",
+          "shortOid": "2fc28d6",
+          "headline": "if1 #4: a finished thread can be closed with Done",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/commit/2fc28d64f64ab546001a81710c71ce90bc8c5b12",
+          "committedAt": "2026-10-22T12:15:43Z",
+          "author": "dwivedi-ai",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/65527745?u=381979ae7b868a3d092d9c84f6a9c1912ca8567c&v=4"
+        }
+      ],
+      "openPulls": [
+        {
+          "number": 25,
+          "title": "Feat/onboarding backend aware steps",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/pull/25",
+          "draft": false,
+          "at": "2026-07-27T15:25:07Z",
+          "author": "KrishBhimani",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/126689784?v=4"
+        }
+      ],
+      "mergedPulls": [
+        {
+          "number": 33,
+          "title": "Rework: storm UI, live-use fixes (if1 #1–#7), review fixes and a quiet sci-fi layer",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/pull/33",
+          "draft": false,
+          "at": "2026-10-22T16:10:17Z",
+          "author": "dwivedi-ai",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/65527745?u=381979ae7b868a3d092d9c84f6a9c1912ca8567c&v=4"
+        },
+        {
+          "number": 29,
+          "title": "Fix Coder session token expiry breaking API and stream requests",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/pull/29",
+          "draft": false,
+          "at": "2026-10-16T12:39:12Z",
+          "author": "dwivedi-ai",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/65527745?u=381979ae7b868a3d092d9c84f6a9c1912ca8567c&v=4"
+        },
+        {
+          "number": 26,
+          "title": "Remove the first-run onboarding flow (Development → Main)",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/pull/26",
+          "draft": false,
+          "at": "2026-09-21T12:17:31Z",
+          "author": "KrishBhimani",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/126689784?v=4"
+        },
+        {
+          "number": 27,
+          "title": "feat(onboarding): remove the first-run onboarding flow",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/pull/27",
+          "draft": false,
+          "at": "2026-09-21T12:03:00Z",
+          "author": "KrishBhimani",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/126689784?v=4"
+        },
+        {
+          "number": 24,
+          "title": "fix(onboarding): make agent persona backend-aware (stop polluting ~/.…",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/pull/24",
+          "draft": false,
+          "at": "2026-06-30T09:38:53Z",
+          "author": "rohini-sp",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/138889836?v=4"
+        },
+        {
+          "number": 23,
+          "title": "Merge Dev into Main ",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/pull/23",
+          "draft": false,
+          "at": "2026-06-22T16:09:28Z",
+          "author": "KrishBhimani",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/126689784?v=4"
+        },
+        {
+          "number": 22,
+          "title": "feat(hermes): surface discord channel in channels tab (token-only)",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/pull/22",
+          "draft": false,
+          "at": "2026-06-03T13:18:37Z",
+          "author": "rohini-sp",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/138889836?v=4"
+        },
+        {
+          "number": 21,
+          "title": "Revert Composio frontend integration (vulnerable composio package)",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/pull/21",
+          "draft": false,
+          "at": "2026-06-02T12:14:16Z",
+          "author": "KrishBhimani",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/126689784?v=4"
+        },
+        {
+          "number": 13,
+          "title": "feat(hermes): profile detail UI + symmetric agent routing",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/pull/13",
+          "draft": false,
+          "at": "2026-05-28T12:20:17Z",
+          "author": "rohini-sp",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/138889836?v=4"
+        },
+        {
+          "number": 20,
+          "title": "Add category filter to connectors grid",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/pull/20",
+          "draft": false,
+          "at": "2026-05-28T10:50:05Z",
+          "author": "SAGARRAMBADE21",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/241298048?u=38b2f63493c80324e6ca582e8a29ca619d26fa7e&v=4"
+        },
+        {
+          "number": 19,
+          "title": "Composio frontend tiles added in this . ",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/pull/19",
+          "draft": false,
+          "at": "2026-05-27T14:19:36Z",
+          "author": "SAGARRAMBADE21",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/241298048?u=38b2f63493c80324e6ca582e8a29ca619d26fa7e&v=4"
+        },
+        {
+          "number": 9,
+          "title": "Fix premature SSE timeout warning on new chat streams",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/pull/9",
+          "draft": false,
+          "at": "2026-05-27T13:08:20Z",
+          "author": "KrishBhimani",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/126689784?v=4"
+        },
+        {
+          "number": 16,
+          "title": "feat(usage): point dashboard at /api/xo-projects/usage",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/pull/16",
+          "draft": false,
+          "at": "2026-05-27T11:06:11Z",
+          "author": "dwivedi-ai",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/65527745?u=381979ae7b868a3d092d9c84f6a9c1912ca8567c&v=4"
+        },
+        {
+          "number": 12,
+          "title": "fix(chat): hoist SSE to route layout so the stream survives Landing",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/pull/12",
+          "draft": false,
+          "at": "2026-05-22T15:16:31Z",
+          "author": "dwivedi-ai",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/65527745?u=381979ae7b868a3d092d9c84f6a9c1912ca8567c&v=4"
+        },
+        {
+          "number": 8,
+          "title": "add .env.example to correct place",
+          "url": "https://github.com/sharmasuraj0123/xo-coworker/pull/8",
+          "draft": false,
+          "at": "2026-05-14T07:43:42Z",
+          "author": "KrishBhimani",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/126689784?v=4"
+        }
+      ]
+    },
+    {
+      "owner": "quirq-ai",
+      "name": "space-hub",
+      "fullName": "quirq-ai/space-hub",
+      "url": "https://github.com/quirq-ai/space-hub",
+      "about": "spacehub is git hosting for agents, stored in SpacetimeDB. Agents own spaces (agent/space, like GitHub's owner/repo) and push to them; builders record who wrote the code. The server is a Docker image running a SpacetimeDB module with a web UI; the client is the gh-style spacehub CLI plus git-remote-quirq, so plain git can push and pull quirq:// URLs. Its main job is keeping the git trees of different machines, sandboxes and agents in sync, live.",
+      "description": null,
+      "links": [],
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 1,
+      "openPRs": 0,
+      "pushedAt": "2026-10-24T06:12:23Z",
+      "archived": false,
+      "fork": false,
+      "defaultBranch": "main",
+      "ci": null,
+      "release": null,
+      "weekly": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        15
+      ],
+      "commits": [
+        {
+          "oid": "aa39257c5143b6e001b8f2d2dc0ccf8a77e5e60c",
+          "shortOid": "aa39257",
+          "headline": "Guide: how to edit a space together and how it works (#4)",
+          "url": "https://github.com/quirq-ai/space-hub/commit/aa39257c5143b6e001b8f2d2dc0ccf8a77e5e60c",
+          "committedAt": "2026-10-24T06:12:23Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "f0092527fa7256c3f28dc9b9951fdd5cafb7a90f",
+          "shortOid": "f009252",
+          "headline": "Edit one space together: members, autosync, presence, live pages (#3)",
+          "url": "https://github.com/quirq-ai/space-hub/commit/f0092527fa7256c3f28dc9b9951fdd5cafb7a90f",
+          "committedAt": "2026-10-24T06:10:12Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "be3706baa17da56b3ecd9e702d4082e890cb9029",
+          "shortOid": "be3706b",
+          "headline": "quirq remote and the xo store (#1)",
+          "url": "https://github.com/quirq-ai/space-hub/commit/be3706baa17da56b3ecd9e702d4082e890cb9029",
+          "committedAt": "2026-10-23T14:58:09Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "d6e7d95b7bbeee1226787bfad29205292fed5412",
+          "shortOid": "d6e7d95",
+          "headline": "Guide page with a short version on the home page",
+          "url": "https://github.com/quirq-ai/space-hub/commit/d6e7d95b7bbeee1226787bfad29205292fed5412",
+          "committedAt": "2026-10-23T13:03:11Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "6f2de3d1c5550191191f26d81572f9629f3ba837",
+          "shortOid": "6f2de3d",
+          "headline": "Home page guide: what spacehub is, who can use it, how to start",
+          "url": "https://github.com/quirq-ai/space-hub/commit/6f2de3d1c5550191191f26d81572f9629f3ba837",
+          "committedAt": "2026-10-23T12:25:45Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "2d144a4e21a132612cbca0e48507717f392f45c7",
+          "shortOid": "2d144a4",
+          "headline": "Activity feed on the home page and on every space",
+          "url": "https://github.com/quirq-ai/space-hub/commit/2d144a4e21a132612cbca0e48507717f392f45c7",
+          "committedAt": "2026-10-23T11:13:29Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "210ba0cc167bd95fc6ea759321524c4f91ee1bfc",
+          "shortOid": "210ba0c",
+          "headline": "Agents and GitHub builders",
+          "url": "https://github.com/quirq-ai/space-hub/commit/210ba0cc167bd95fc6ea759321524c4f91ee1bfc",
+          "committedAt": "2026-10-23T10:53:47Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "7526bc3bd50f3870a41508f77cbd8d473fa2f7e3",
+          "shortOid": "7526bc3",
+          "headline": "Credit builders: who built a space's code, apart from its owner",
+          "url": "https://github.com/quirq-ai/space-hub/commit/7526bc3bd50f3870a41508f77cbd8d473fa2f7e3",
+          "committedAt": "2026-10-23T07:19:17Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "eda10a7a64d05b5ba672a1fd13c9e24a9962e7dc",
+          "shortOid": "eda10a7",
+          "headline": "Full repo browsing in the web UI, sign-up and GitHub import",
+          "url": "https://github.com/quirq-ai/space-hub/commit/eda10a7a64d05b5ba672a1fd13c9e24a9962e7dc",
+          "committedAt": "2026-10-23T05:43:39Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "34a8db0ac9d9182c0eefb4af404f256ed7e4ac69",
+          "shortOid": "34a8db0",
+          "headline": "Always name the spacehub git remote \"spacehub\"",
+          "url": "https://github.com/quirq-ai/space-hub/commit/34a8db0ac9d9182c0eefb4af404f256ed7e4ac69",
+          "committedAt": "2026-10-22T19:23:40Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "69c0dcea411b560a78516d9c2e0c4ba5094c70d8",
+          "shortOid": "69c0dce",
+          "headline": "space create --source: keep an existing origin",
+          "url": "https://github.com/quirq-ai/space-hub/commit/69c0dcea411b560a78516d9c2e0c4ba5094c70d8",
+          "committedAt": "2026-10-22T19:22:21Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "37316a911ee83ded501148b62a1a44cca079d756",
+          "shortOid": "37316a9",
+          "headline": "Add a read-only web UI rendered by the module",
+          "url": "https://github.com/quirq-ai/space-hub/commit/37316a911ee83ded501148b62a1a44cca079d756",
+          "committedAt": "2026-10-22T18:44:06Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "550798ec2139053c0b65c3a31cb5cf3f274cc9be",
+          "shortOid": "550798e",
+          "headline": "Open the public port before SpacetimeDB is ready",
+          "url": "https://github.com/quirq-ai/space-hub/commit/550798ec2139053c0b65c3a31cb5cf3f274cc9be",
+          "committedAt": "2026-10-22T13:04:10Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "bddd93917b4c60bb26470f681c2c5f130c9c766d",
+          "shortOid": "bddd939",
+          "headline": "Fix server startup on root-owned volumes",
+          "url": "https://github.com/quirq-ai/space-hub/commit/bddd93917b4c60bb26470f681c2c5f130c9c766d",
+          "committedAt": "2026-10-22T12:31:23Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "5e0b0ef40e12e17a1f7eeb885918b13a84abe4e4",
+          "shortOid": "5e0b0ef",
+          "headline": "spacehub: git hosting on SpacetimeDB",
+          "url": "https://github.com/quirq-ai/space-hub/commit/5e0b0ef40e12e17a1f7eeb885918b13a84abe4e4",
+          "committedAt": "2026-10-22T12:26:31Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        }
+      ],
+      "openPulls": [],
+      "mergedPulls": [
+        {
+          "number": 4,
+          "title": "Guide: how to edit a space together and how it works",
+          "url": "https://github.com/quirq-ai/space-hub/pull/4",
+          "draft": false,
+          "at": "2026-10-24T06:12:24Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "number": 3,
+          "title": "Edit one space together: members, autosync, presence, live pages",
+          "url": "https://github.com/quirq-ai/space-hub/pull/3",
+          "draft": false,
+          "at": "2026-10-24T06:10:12Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "number": 1,
+          "title": "quirq remote and the xo store",
+          "url": "https://github.com/quirq-ai/space-hub/pull/1",
+          "draft": false,
+          "at": "2026-10-23T14:58:10Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        }
+      ]
+    },
+    {
+      "owner": "quirq-ai",
+      "name": "qq",
+      "fullName": "quirq-ai/qq",
+      "url": "https://github.com/quirq-ai/qq",
+      "about": "qq is the quirq infra command line, modeled on Chromium's depot_tools. It wraps git and gh, and every quirq repo pins the qq version it runs in its manifest (infra/repo.toml), so qq installs and runs exactly that version and updates itself when the pin moves. It fetches repos, syncs manifests, sets up toolchains, and runs builds and tests through recipes; other repos can add subcommands. Long-running commands return a run ID at once and report the verdict later, so agents never block on a build.",
+      "description": null,
+      "links": [],
+      "language": {
+        "name": "Python",
+        "color": "#3572A5"
+      },
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 5,
+      "openPRs": 1,
+      "pushedAt": "2026-10-22T13:16:46Z",
+      "archived": false,
+      "fork": false,
+      "defaultBranch": "main",
+      "ci": "SUCCESS",
+      "release": null,
+      "weekly": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        37,
+        2,
+        2
+      ],
+      "commits": [
+        {
+          "oid": "af16f390a8b88ed7f4aa2dd50f1b683d2bc8c749",
+          "shortOid": "af16f39",
+          "headline": "Auto-update qq to qq-setup's reviewed commit, when setup turned it on…",
+          "url": "https://github.com/quirq-ai/qq/commit/af16f390a8b88ed7f4aa2dd50f1b683d2bc8c749",
+          "committedAt": "2026-10-22T12:51:53Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "aa5fe8aeca6764729255dd2185a30509cd656f14",
+          "shortOid": "aa5fe8a",
+          "headline": "infra: qq manifest for the compatibility check (not onboarding) (#33)",
+          "url": "https://github.com/quirq-ai/qq/commit/aa5fe8aeca6764729255dd2185a30509cd656f14",
+          "committedAt": "2026-10-21T19:06:03Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "b205b0ecb5b528db5e582b7371ca39dba53f638a",
+          "shortOid": "b205b0e",
+          "headline": "qq sync project: working clones, from qqsync.project (#30)",
+          "url": "https://github.com/quirq-ai/qq/commit/b205b0ecb5b528db5e582b7371ca39dba53f638a",
+          "committedAt": "2026-10-14T14:37:46Z",
+          "author": "KrishBhimani",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/126689784?v=4"
+        },
+        {
+          "oid": "17f8ed8e2c88cf7901da3eae22ff7eddbcf7fca9",
+          "shortOid": "17f8ed8",
+          "headline": "Bump qqsync to sync main aecb0fd (qqsync init) and qqrecipes to match…",
+          "url": "https://github.com/quirq-ai/qq/commit/17f8ed8e2c88cf7901da3eae22ff7eddbcf7fca9",
+          "committedAt": "2026-10-10T09:04:20Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "2b2d52c4f9e9f851fe3ee9e6fd4d94151dd860f4",
+          "shortOid": "2b2d52c",
+          "headline": "Pin gate after #29, guard as qq, stop trusting quirq-ai/depot (#28)",
+          "url": "https://github.com/quirq-ai/qq/commit/2b2d52c4f9e9f851fe3ee9e6fd4d94151dd860f4",
+          "committedAt": "2026-10-09T18:55:31Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "8424df8e10bbebfd6ec00f4e63d2e73421c78235",
+          "shortOid": "8424df8",
+          "headline": "Install from quirq-ai/qq by default; keep quirq-ai/depot trusted (#27)",
+          "url": "https://github.com/quirq-ai/qq/commit/8424df8e10bbebfd6ec00f4e63d2e73421c78235",
+          "committedAt": "2026-10-09T07:56:46Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "8d9d0c04c5f117afef06a4dea624ec1ac0ae27d8",
+          "shortOid": "8d9d0c0",
+          "headline": "Trust quirq-ai/qq ahead of renaming depot to qq (#26)",
+          "url": "https://github.com/quirq-ai/qq/commit/8d9d0c04c5f117afef06a4dea624ec1ac0ae27d8",
+          "committedAt": "2026-10-09T02:20:04Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "264126f179e566a5325551e99ab8e822c45b8afe",
+          "shortOid": "264126f",
+          "headline": "Pin gate 96c85d4, whose infra-config pin (41a8cb0) gates website (#25)",
+          "url": "https://github.com/quirq-ai/qq/commit/264126f179e566a5325551e99ab8e822c45b8afe",
+          "committedAt": "2026-10-08T22:11:47Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "982ce856e29f0e1f7a2784f9f5d069fa7b3877de",
+          "shortOid": "982ce85",
+          "headline": "docs: README matches main (2026-10-07 docs refresh) (#24)",
+          "url": "https://github.com/quirq-ai/qq/commit/982ce856e29f0e1f7a2784f9f5d069fa7b3877de",
+          "committedAt": "2026-10-07T16:40:36Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "52d4e99de9332813380d6b2e9790276c588c67cf",
+          "shortOid": "52d4e99",
+          "headline": "qq create and qq run: a repo's own qq commands, run with its pinned t…",
+          "url": "https://github.com/quirq-ai/qq/commit/52d4e99de9332813380d6b2e9790276c588c67cf",
+          "committedAt": "2026-10-07T02:27:05Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "3d8b8d18b35c2bf9f91178485fef843d22cfdaa4",
+          "shortOid": "3d8b8d1",
+          "headline": "README: product CI does not run recipes yet (#22)",
+          "url": "https://github.com/quirq-ai/qq/commit/3d8b8d18b35c2bf9f91178485fef843d22cfdaa4",
+          "committedAt": "2026-10-06T22:08:49Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "741967cc7fba1e486a65856b05c4abb2b1486b8b",
+          "shortOid": "741967c",
+          "headline": "CODEOWNERS: suraj owns the policy and trust paths (#19)",
+          "url": "https://github.com/quirq-ai/qq/commit/741967cc7fba1e486a65856b05c4abb2b1486b8b",
+          "committedAt": "2026-10-04T22:42:28Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "20d5f1c8f8ec871c6943a2f1890eb29269d12efa",
+          "shortOid": "20d5f1c",
+          "headline": "Run gate's agnosticism guard in presubmit (#18)",
+          "url": "https://github.com/quirq-ai/qq/commit/20d5f1c8f8ec871c6943a2f1890eb29269d12efa",
+          "committedAt": "2026-10-04T18:31:26Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "df18b192c17bc42935a6d49c4b31902ca88ecb66",
+          "shortOid": "df18b19",
+          "headline": "Add e2e-sync: qq fetch and qq sync on xo-space and innernet in Action…",
+          "url": "https://github.com/quirq-ai/qq/commit/df18b192c17bc42935a6d49c4b31902ca88ecb66",
+          "committedAt": "2026-10-04T17:39:13Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "05718e583d30d521e9f7978e422ed573603b55cc",
+          "shortOid": "05718e5",
+          "headline": "A commit pin must be on main or a v* tag, not just any branch (#16)",
+          "url": "https://github.com/quirq-ai/qq/commit/05718e583d30d521e9f7978e422ed573603b55cc",
+          "committedAt": "2026-10-04T17:26:48Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "4c328f533f266537fde3ba2140cc1a433756c2b2",
+          "shortOid": "4c328f5",
+          "headline": "Install PyPI packages only by hash, everything else by commit with no…",
+          "url": "https://github.com/quirq-ai/qq/commit/4c328f533f266537fde3ba2140cc1a433756c2b2",
+          "committedAt": "2026-10-04T17:13:30Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "8de88b68dbc3422dae81c222d9d41463e21900a4",
+          "shortOid": "8de88b6",
+          "headline": "Pins install qq only from trusted sources; commit pins are checked af…",
+          "url": "https://github.com/quirq-ai/qq/commit/8de88b68dbc3422dae81c222d9d41463e21900a4",
+          "committedAt": "2026-10-04T17:04:39Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "05ea9937f057e79a6765ac679d95873ab8fcebfa",
+          "shortOid": "05ea993",
+          "headline": "Read-only, re-checked store entries; git fetches over https, ssh and …",
+          "url": "https://github.com/quirq-ai/qq/commit/05ea9937f057e79a6765ac679d95873ab8fcebfa",
+          "committedAt": "2026-10-04T16:53:21Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "2d9579da27883d7c0cf6e4ac3bfe979eaeddc073",
+          "shortOid": "2d9579d",
+          "headline": "Gate timeout and answer checks, atomic sync.json, resolved archive li…",
+          "url": "https://github.com/quirq-ai/qq/commit/2d9579da27883d7c0cf6e4ac3bfe979eaeddc073",
+          "committedAt": "2026-10-04T16:43:56Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "cb5f4f7a99ee306d40f0af878bfaadabc44a4271",
+          "shortOid": "cb5f4f7",
+          "headline": "Apache-2.0 licence; ungated changes land with squash (#11)",
+          "url": "https://github.com/quirq-ai/qq/commit/cb5f4f7a99ee306d40f0af878bfaadabc44a4271",
+          "committedAt": "2026-10-04T14:12:14Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        }
+      ],
+      "openPulls": [
+        {
+          "number": 32,
+          "title": "Draft: qq sync on native Windows (Mac/Windows sync plan, step 5)",
+          "url": "https://github.com/quirq-ai/qq/pull/32",
+          "draft": true,
+          "at": "2026-10-22T13:16:48Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        }
+      ],
+      "mergedPulls": [
+        {
+          "number": 35,
+          "title": "Auto-update qq to qq-setup's reviewed commit, when setup turned it on",
+          "url": "https://github.com/quirq-ai/qq/pull/35",
+          "draft": false,
+          "at": "2026-10-22T12:55:23Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "number": 33,
+          "title": "infra: qq manifest for the compatibility check (not onboarding)",
+          "url": "https://github.com/quirq-ai/qq/pull/33",
+          "draft": false,
+          "at": "2026-10-21T19:09:24Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "number": 30,
+          "title": "qq sync project: working clones, from qqsync.project",
+          "url": "https://github.com/quirq-ai/qq/pull/30",
+          "draft": false,
+          "at": "2026-10-14T14:40:53Z",
+          "author": "KrishBhimani",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/126689784?v=4"
+        },
+        {
+          "number": 29,
+          "title": "Bump qqsync to sync main aecb0fd (qqsync init) and qqrecipes to match",
+          "url": "https://github.com/quirq-ai/qq/pull/29",
+          "draft": false,
+          "at": "2026-10-10T09:07:06Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "number": 28,
+          "title": "Pin gate after #29, guard as qq, stop trusting quirq-ai/depot",
+          "url": "https://github.com/quirq-ai/qq/pull/28",
+          "draft": false,
+          "at": "2026-10-09T18:58:28Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "number": 27,
+          "title": "Install from quirq-ai/qq by default; keep quirq-ai/depot trusted",
+          "url": "https://github.com/quirq-ai/qq/pull/27",
+          "draft": false,
+          "at": "2026-10-09T07:59:38Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "number": 26,
+          "title": "Trust quirq-ai/qq ahead of renaming depot to qq",
+          "url": "https://github.com/quirq-ai/qq/pull/26",
+          "draft": false,
+          "at": "2026-10-09T02:23:16Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "number": 25,
+          "title": "Pin gate 96c85d4 so qq gates website",
+          "url": "https://github.com/quirq-ai/qq/pull/25",
+          "draft": false,
+          "at": "2026-10-08T22:14:42Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "number": 24,
+          "title": "docs: README matches main (2026-10-07 docs refresh)",
+          "url": "https://github.com/quirq-ai/qq/pull/24",
+          "draft": false,
+          "at": "2026-10-07T16:43:25Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "number": 23,
+          "title": "qq create and qq run: a repo's own qq commands, run with its pinned toolchains",
+          "url": "https://github.com/quirq-ai/qq/pull/23",
+          "draft": false,
+          "at": "2026-10-07T02:30:33Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "number": 22,
+          "title": "README: product CI does not run recipes yet",
+          "url": "https://github.com/quirq-ai/qq/pull/22",
+          "draft": false,
+          "at": "2026-10-06T22:11:51Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "number": 19,
+          "title": "CODEOWNERS: suraj owns the policy and trust paths",
+          "url": "https://github.com/quirq-ai/qq/pull/19",
+          "draft": false,
+          "at": "2026-10-04T22:45:50Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "number": 18,
+          "title": "Run gate's agnosticism guard in presubmit",
+          "url": "https://github.com/quirq-ai/qq/pull/18",
+          "draft": false,
+          "at": "2026-10-04T18:31:27Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "number": 17,
+          "title": "Add e2e-sync: qq fetch and qq sync on xo-space and innernet in Actions",
+          "url": "https://github.com/quirq-ai/qq/pull/17",
+          "draft": false,
+          "at": "2026-10-04T17:39:13Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "number": 16,
+          "title": "A commit pin must be on main or a v* tag, not just any branch",
+          "url": "https://github.com/quirq-ai/qq/pull/16",
+          "draft": false,
+          "at": "2026-10-04T17:26:48Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        }
+      ]
+    },
+    {
+      "owner": "quirq-ai",
+      "name": "quirqy",
+      "fullName": "quirq-ai/quirqy",
+      "url": "https://github.com/quirq-ai/quirqy",
+      "about": "Quirqy is a browser app for exploring a GitHub repository, its history and the people around it in interactive 3D. Data Lab shows files and commit history; Activity Lab shows pull requests, issues, reviews, comments, forks and contributors, each with a timeline you can play and scrub. It loads any public repo by URL with no backend, token or account. Built with Vite on Observatory's shared 3D engine; work happens on the quirq branch.",
+      "description": null,
+      "links": [
+        {
+          "label": "quirqy.vercel.app",
+          "url": "https://quirqy.vercel.app"
+        }
+      ],
+      "language": {
+        "name": "JavaScript",
+        "color": "#f1e05a"
+      },
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 1,
+      "openPRs": 0,
+      "pushedAt": "2026-10-23T19:33:03Z",
+      "archived": false,
+      "fork": false,
+      "defaultBranch": "quirq",
+      "ci": "SUCCESS",
+      "release": null,
+      "weekly": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        48
+      ],
+      "commits": [
+        {
+          "oid": "262ff7d284b91f6a76dc22114ce5e3ec4f92ca71",
+          "shortOid": "262ff7d",
+          "headline": "Render Data Lab and Activity Lab on demand (#1)",
+          "url": "https://github.com/quirq-ai/quirqy/commit/262ff7d284b91f6a76dc22114ce5e3ec4f92ca71",
+          "committedAt": "2026-10-20T15:35:01Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "a3866047734ff3cf1687366c7241a9b5e3b8df01",
+          "shortOid": "a386604",
+          "headline": "Fix Activity Lab stylesheet loading in production",
+          "url": "https://github.com/quirq-ai/quirqy/commit/a3866047734ff3cf1687366c7241a9b5e3b8df01",
+          "committedAt": "2026-10-19T17:19:46Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "5dfc8f38aab5bd3573b240bf593a56443e56bd4b",
+          "shortOid": "5dfc8f3",
+          "headline": "Open Quirqy in Data Lab and fix Vercel deep links",
+          "url": "https://github.com/quirq-ai/quirqy/commit/5dfc8f38aab5bd3573b240bf593a56443e56bd4b",
+          "committedAt": "2026-10-19T17:07:29Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "d7e5503453e11d991ea43ba17985b4bdb55cea05",
+          "shortOid": "d7e5503",
+          "headline": "Move repository connections into a GitHub dock app",
+          "url": "https://github.com/quirq-ai/quirqy/commit/d7e5503453e11d991ea43ba17985b4bdb55cea05",
+          "committedAt": "2026-10-19T15:45:57Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "ad39413640bd40e9f5ba7d637c86f2cbd2a67c54",
+          "shortOid": "ad39413",
+          "headline": "Publish Quirqy branding and current usage documentation",
+          "url": "https://github.com/quirq-ai/quirqy/commit/ad39413640bd40e9f5ba7d637c86f2cbd2a67c54",
+          "committedAt": "2026-10-19T15:37:54Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "bccdaf8eaeb10a7dae1f5b33a3d95eaefd068715",
+          "shortOid": "bccdaf8",
+          "headline": "Connect fixed scene views to their dock app",
+          "url": "https://github.com/quirq-ai/quirqy/commit/bccdaf8eaeb10a7dae1f5b33a3d95eaefd068715",
+          "committedAt": "2026-10-19T14:46:33Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "743acb059b6fe0b9dcb48c3d287edd59266e7fe8",
+          "shortOid": "743acb0",
+          "headline": "Connect Timeline controls to their centered app icon",
+          "url": "https://github.com/quirq-ai/quirqy/commit/743acb059b6fe0b9dcb48c3d287edd59266e7fe8",
+          "committedAt": "2026-10-19T13:58:17Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "4868fe426dc2dc74ece7f6ef474f24db3a86ded8",
+          "shortOid": "4868fe4",
+          "headline": "Center the dock logo in the bottom app row",
+          "url": "https://github.com/quirq-ai/quirqy/commit/4868fe426dc2dc74ece7f6ef474f24db3a86ded8",
+          "committedAt": "2026-10-19T13:45:48Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "2edba73e298519c6c5dc9166da069baf2f1f6c95",
+          "shortOid": "2edba73",
+          "headline": "Animate dock collapse and expansion around the logo",
+          "url": "https://github.com/quirq-ai/quirqy/commit/2edba73e298519c6c5dc9166da069baf2f1f6c95",
+          "committedAt": "2026-10-19T13:26:16Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "4cb50de0159d4827066de6d33f72ca9692a71316",
+          "shortOid": "4cb50de",
+          "headline": "Collapse the dock from its logo and simplify branding controls",
+          "url": "https://github.com/quirq-ai/quirqy/commit/4cb50de0159d4827066de6d33f72ca9692a71316",
+          "committedAt": "2026-10-19T13:11:15Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "96465dd2a57c73d46c7d6c898ed5e8a875236cff",
+          "shortOid": "96465dd",
+          "headline": "Add Timeline app with expandable dock controls",
+          "url": "https://github.com/quirq-ai/quirqy/commit/96465dd2a57c73d46c7d6c898ed5e8a875236cff",
+          "committedAt": "2026-10-19T10:47:13Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "b2698c2599fe14b2fff5f1b2f570d0a0c5894f7b",
+          "shortOid": "b2698c2",
+          "headline": "Render activity before restoring shared repository storage",
+          "url": "https://github.com/quirq-ai/quirqy/commit/b2698c2599fe14b2fff5f1b2f570d0a0c5894f7b",
+          "committedAt": "2026-10-19T10:39:16Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "f9e7d85f397de8c14788e494611f36f694bf94c2",
+          "shortOid": "f9e7d85",
+          "headline": "Show opacity beside persistent dock views",
+          "url": "https://github.com/quirq-ai/quirqy/commit/f9e7d85f397de8c14788e494611f36f694bf94c2",
+          "committedAt": "2026-10-19T10:37:43Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "7792f50bb2a32bc46ee31de4994228182b9fce45",
+          "shortOid": "7792f50",
+          "headline": "Use the logo as the dock handle and add an Edit app",
+          "url": "https://github.com/quirq-ai/quirqy/commit/7792f50bb2a32bc46ee31de4994228182b9fce45",
+          "committedAt": "2026-10-19T10:34:07Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "8e1391d0b13467d2d13c73f96d6b6562bc2d7eb0",
+          "shortOid": "8e1391d",
+          "headline": "Make dock opacity inline and simplify app icons",
+          "url": "https://github.com/quirq-ai/quirqy/commit/8e1391d0b13467d2d13c73f96d6b6562bc2d7eb0",
+          "committedAt": "2026-10-19T10:29:26Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "74fef46d236cbda830827df9cc4814c0f83e4e88",
+          "shortOid": "74fef46",
+          "headline": "Reframe categories after leaving activity close-up",
+          "url": "https://github.com/quirq-ai/quirqy/commit/74fef46d236cbda830827df9cc4814c0f83e4e88",
+          "committedAt": "2026-10-19T10:25:07Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "5b2d5256f985ba6d2d4bb25618f947a49f0f3e23",
+          "shortOid": "5b2d525",
+          "headline": "Reset activity focus when category visibility changes",
+          "url": "https://github.com/quirq-ai/quirqy/commit/5b2d5256f985ba6d2d4bb25618f947a49f0f3e23",
+          "committedAt": "2026-10-19T10:22:41Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "417727f4c30571343f26a55912bc8c28c179c0e2",
+          "shortOid": "417727f",
+          "headline": "Refine root growth, contributor spacing, and dock navigation",
+          "url": "https://github.com/quirq-ai/quirqy/commit/417727f4c30571343f26a55912bc8c28c179c0e2",
+          "committedAt": "2026-10-19T10:21:30Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "152d0af08ac28d3042baf7e3bec1c3d4f13a6480",
+          "shortOid": "152d0af",
+          "headline": "Add Apps launcher for hidden Observatory labs",
+          "url": "https://github.com/quirq-ai/quirqy/commit/152d0af08ac28d3042baf7e3bec1c3d4f13a6480",
+          "committedAt": "2026-10-19T10:09:30Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "873362eca1fcec6901962545213c226aa9e316b1",
+          "shortOid": "873362e",
+          "headline": "Add labeled app tiles for dock controls",
+          "url": "https://github.com/quirq-ai/quirqy/commit/873362eca1fcec6901962545213c226aa9e316b1",
+          "committedAt": "2026-10-19T09:47:56Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        }
+      ],
+      "openPulls": [],
+      "mergedPulls": [
+        {
+          "number": 1,
+          "title": "Render Data Lab and Activity Lab on demand",
+          "url": "https://github.com/quirq-ai/quirqy/pull/1",
+          "draft": false,
+          "at": "2026-10-20T15:35:02Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        }
+      ]
+    },
+    {
+      "owner": "quirq-gates",
+      "name": "vercel-activity",
+      "fullName": "quirq-gates/vercel-activity",
+      "url": "https://github.com/quirq-gates/vercel-activity",
+      "about": "vercel-activity is a small public Next.js dashboard, deployed on Vercel, of deployment activity for the Vercel projects deployed from this workspace (chosen in workspace.json), plus an /account page with the connected Vercel account and its domains. A server-only VERCEL_TOKEN reads the Vercel API; only allowlisted public-safe fields reach the page, cached 5 min.",
+      "description": "Public dashboard of Vercel deployment activity for the projects deployed from our workspace",
+      "links": [
+        {
+          "label": "Live site",
+          "url": "https://vercel-activity-delta.vercel.app"
+        }
+      ],
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "openPRs": 0,
+      "pushedAt": "2026-10-23T21:03:15Z",
+      "archived": false,
+      "fork": false,
+      "defaultBranch": "main",
+      "ci": null,
+      "release": null,
+      "weekly": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6
+      ],
+      "commits": [
+        {
+          "oid": "70116265d30f4e34b1541f0eff35fab57c6a81e0",
+          "shortOid": "7011626",
+          "headline": "Show every project in the quirq-research team",
+          "url": "https://github.com/quirq-gates/vercel-activity/commit/70116265d30f4e34b1541f0eff35fab57c6a81e0",
+          "committedAt": "2026-10-23T21:03:14Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "1dcf37d323f70407bc57bd70bdb1fd379934c25a",
+          "shortOid": "1dcf37d",
+          "headline": "Document PROJECTS env var",
+          "url": "https://github.com/quirq-gates/vercel-activity/commit/1dcf37d323f70407bc57bd70bdb1fd379934c25a",
+          "committedAt": "2026-10-23T21:01:53Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "a38b8b160098148990b61ed98ee5e68f72b15160",
+          "shortOid": "a38b8b1",
+          "headline": "Support CLI-deployed projects and whole-team scope",
+          "url": "https://github.com/quirq-gates/vercel-activity/commit/a38b8b160098148990b61ed98ee5e68f72b15160",
+          "committedAt": "2026-10-23T21:01:47Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "98f7755ff76f7981b09b5c2f3223b828181d277d",
+          "shortOid": "98f7755",
+          "headline": "Point workspace.json at quirq-gates/vercel-activity",
+          "url": "https://github.com/quirq-gates/vercel-activity/commit/98f7755ff76f7981b09b5c2f3223b828181d277d",
+          "committedAt": "2026-10-23T20:49:19Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "89336e0d5d21754b44f11ab3bc09ad7f76ac470a",
+          "shortOid": "89336e0",
+          "headline": "Show only workspace projects; add account and domains page",
+          "url": "https://github.com/quirq-gates/vercel-activity/commit/89336e0d5d21754b44f11ab3bc09ad7f76ac470a",
+          "committedAt": "2026-10-23T20:38:04Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "a629436112fd15eae110fbe133185c675a206bfd",
+          "shortOid": "a629436",
+          "headline": "Vercel activity dashboard",
+          "url": "https://github.com/quirq-gates/vercel-activity/commit/a629436112fd15eae110fbe133185c675a206bfd",
+          "committedAt": "2026-10-23T20:33:59Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        }
+      ],
+      "openPulls": [],
+      "mergedPulls": []
+    },
+    {
+      "owner": "quirq-gates",
+      "name": "github-activity",
+      "fullName": "quirq-gates/github-activity",
+      "url": "https://github.com/quirq-gates/github-activity",
+      "about": "github-activity is this page: a public portfolio of the space's GitHub work. A card per project with what it is, where it runs, its latest commits and merged pull requests, plus weekly commits and a recent-activity feed. Built with Next.js on Vercel as a static site: a local script takes a snapshot of public GitHub data, so the site holds no token and makes no API calls.",
+      "description": "Public activity dashboard for our public GitHub repos",
+      "links": [
+        {
+          "label": "Live site",
+          "url": "https://github-activity-bay.vercel.app"
+        }
+      ],
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "openPRs": 0,
+      "pushedAt": "2026-10-23T20:49:34Z",
+      "archived": false,
+      "fork": false,
+      "defaultBranch": "main",
+      "ci": null,
+      "release": null,
+      "weekly": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "commits": [
+        {
+          "oid": "d4a8271f3ab2f4c703daf4379abf8087a52dc63b",
+          "shortOid": "d4a8271",
+          "headline": "GitHub activity dashboard: public repos, server-side token, 5-min cache",
+          "url": "https://github.com/quirq-gates/github-activity/commit/d4a8271f3ab2f4c703daf4379abf8087a52dc63b",
+          "committedAt": "2026-10-23T20:35:38Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        }
+      ],
+      "openPulls": [],
+      "mergedPulls": []
+    }
+  ],
+  "weekStarts": [
+    "2026-08-01T06:13:16.384Z",
+    "2026-08-08T06:13:16.384Z",
+    "2026-08-15T06:13:16.384Z",
+    "2026-08-22T06:13:16.384Z",
+    "2026-08-29T06:13:16.384Z",
+    "2026-09-05T06:13:16.384Z",
+    "2026-09-12T06:13:16.384Z",
+    "2026-09-19T06:13:16.384Z",
+    "2026-09-26T06:13:16.384Z",
+    "2026-10-03T06:13:16.384Z",
+    "2026-10-10T06:13:16.384Z",
+    "2026-10-17T06:13:16.384Z"
+  ],
+  "totals": {
+    "commits7d": 144,
+    "activeRepos7d": 7,
+    "prsOpened7d": 43,
+    "prsMerged7d": 42,
+    "issuesOpened7d": 21
+  },
+  "feed": [
+    {
+      "id": "18087627571",
+      "createdAt": "2026-10-24T06:12:24Z",
+      "actor": "sharmasuraj0123",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/36091186?",
+      "repo": "quirq-ai/space-hub",
+      "kind": "pr",
+      "verb": "merged pull request",
+      "ref": {
+        "label": "#4",
+        "url": "https://github.com/quirq-ai/space-hub/pull/4"
+      },
+      "title": "Guide: how to edit a space together and how it works"
+    },
+    {
+      "id": "18087613784",
+      "createdAt": "2026-10-24T06:12:10Z",
+      "actor": "sharmasuraj0123",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/36091186?",
+      "repo": "quirq-ai/space-hub",
+      "kind": "pr",
+      "verb": "opened pull request",
+      "ref": {
+        "label": "#4",
+        "url": "https://github.com/quirq-ai/space-hub/pull/4"
+      },
+      "title": "Guide: how to edit a space together and how it works"
+    },
+    {
+      "id": "18087515220",
+      "createdAt": "2026-10-24T06:10:12Z",
+      "actor": "sharmasuraj0123",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/36091186?",
+      "repo": "quirq-ai/space-hub",
+      "kind": "pr",
+      "verb": "merged pull request",
+      "ref": {
+        "label": "#3",
+        "url": "https://github.com/quirq-ai/space-hub/pull/3"
+      },
+      "title": "Edit one space together: members, autosync, presence, live pages"
+    },
+    {
+      "id": "18087450659",
+      "createdAt": "2026-10-24T06:08:58Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/space-hub",
+      "kind": "review",
+      "verb": "reviewed pull request",
+      "ref": {
+        "label": "#3",
+        "url": "https://github.com/quirq-ai/space-hub/pull/3"
+      },
+      "title": "Edit one space together: members, autosync, presence, live pages"
+    },
+    {
+      "id": "18087282240",
+      "createdAt": "2026-10-24T06:05:33Z",
+      "actor": "sharmasuraj0123",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/36091186?",
+      "repo": "quirq-ai/space-hub",
+      "kind": "pr",
+      "verb": "opened pull request",
+      "ref": {
+        "label": "#3",
+        "url": "https://github.com/quirq-ai/space-hub/pull/3"
+      },
+      "title": "Edit one space together: members, autosync, presence, live pages"
+    },
+    {
+      "id": "24982073156",
+      "createdAt": "2026-10-23T21:03:16Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-gates/vercel-activity",
+      "kind": "push",
+      "verb": "pushed to main",
+      "ref": {
+        "label": "7011626",
+        "url": "https://github.com/quirq-gates/vercel-activity/commit/70116265d30f4e34b1541f0eff35fab57c6a81e0"
+      },
+      "title": "Show every project in the quirq-research team"
+    },
+    {
+      "id": "24991176612",
+      "createdAt": "2026-10-23T20:57:46Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "branch",
+      "verb": "deleted branch claude/project-thread-q95j5o"
+    },
+    {
+      "id": "24995919186",
+      "createdAt": "2026-10-23T20:57:44Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "push",
+      "verb": "pushed to main",
+      "ref": {
+        "label": "593cda7",
+        "url": "https://github.com/quirq-ai/xo/commit/593cda7523d13cffb68fb34cfd75cc5448d920c9"
+      },
+      "title": "Quickstart: install xo at 38361fb (#87)"
+    },
+    {
+      "id": "18056358022",
+      "createdAt": "2026-10-23T20:57:43Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "pr",
+      "verb": "merged pull request",
+      "ref": {
+        "label": "#87",
+        "url": "https://github.com/quirq-ai/xo/pull/87"
+      },
+      "title": "Quickstart: install xo at 38361fb"
+    },
+    {
+      "id": "18055890093",
+      "createdAt": "2026-10-23T20:52:22Z",
+      "actor": "vercel[bot]",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/35613825?",
+      "repo": "quirq-ai/xo",
+      "kind": "comment",
+      "verb": "commented on",
+      "ref": {
+        "label": "#87",
+        "url": "https://github.com/quirq-ai/xo/pull/87"
+      },
+      "title": "Quickstart: install xo at 38361fb"
+    },
+    {
+      "id": "18055877880",
+      "createdAt": "2026-10-23T20:52:15Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "pr",
+      "verb": "opened pull request",
+      "ref": {
+        "label": "#87",
+        "url": "https://github.com/quirq-ai/xo/pull/87"
+      },
+      "title": "Quickstart: install xo at 38361fb"
+    },
+    {
+      "id": "24981127219",
+      "createdAt": "2026-10-23T20:52:10Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "branch",
+      "verb": "created branch claude/project-thread-q95j5o"
+    },
+    {
+      "id": "24981128114",
+      "createdAt": "2026-10-23T20:52:10Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-gates/vercel-activity",
+      "kind": "branch",
+      "verb": "created branch main"
+    },
+    {
+      "id": "18055846629",
+      "createdAt": "2026-10-23T20:51:55Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "issue",
+      "verb": "opened issue",
+      "ref": {
+        "label": "#86",
+        "url": "https://github.com/quirq-ai/xo/issues/86"
+      },
+      "title": "Leftovers after #84/#85: logout wording, guide wrap, --gh test, --owner with KIND"
+    },
+    {
+      "id": "24964628249",
+      "createdAt": "2026-10-23T20:51:53Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "push",
+      "verb": "pushed to main",
+      "ref": {
+        "label": "38361fb",
+        "url": "https://github.com/quirq-ai/xo/commit/38361fb016d1d589ee0aa659ef383d166fa536a4"
+      },
+      "title": "Follow-ups to #84: login wording, --github with KIND refused, hub-to-…"
+    },
+    {
+      "id": "18055843785",
+      "createdAt": "2026-10-23T20:51:52Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "pr",
+      "verb": "merged pull request",
+      "ref": {
+        "label": "#85",
+        "url": "https://github.com/quirq-ai/xo/pull/85"
+      },
+      "title": "Follow-ups to #84: login wording, --github with KIND refused, hub-to-GitHub test"
+    },
+    {
+      "id": "24964475676",
+      "createdAt": "2026-10-23T20:49:34Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-gates/github-activity",
+      "kind": "branch",
+      "verb": "created branch main"
+    },
+    {
+      "id": "18055463437",
+      "createdAt": "2026-10-23T20:47:46Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "pr",
+      "verb": "opened pull request",
+      "ref": {
+        "label": "#85",
+        "url": "https://github.com/quirq-ai/xo/pull/85"
+      },
+      "title": "Follow-ups to #84: login wording, --github with KIND refused, hub-to-GitHub test"
+    },
+    {
+      "id": "24964341726",
+      "createdAt": "2026-10-23T20:47:30Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "branch",
+      "verb": "created branch claude/project-thread-q95j5o"
+    },
+    {
+      "id": "24985237947",
+      "createdAt": "2026-10-23T20:44:05Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "branch",
+      "verb": "deleted branch claude/project-thread-q95j5o"
+    },
+    {
+      "id": "24994882484",
+      "createdAt": "2026-10-23T20:44:04Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "push",
+      "verb": "pushed to main",
+      "ref": {
+        "label": "9bbb460",
+        "url": "https://github.com/quirq-ai/xo/commit/9bbb460912d6a965be312a2b7f6327020a25f982"
+      },
+      "title": "xo create space goes to the quirq hub only; GitHub needs --github (#84)"
+    },
+    {
+      "id": "18055115948",
+      "createdAt": "2026-10-23T20:44:02Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "pr",
+      "verb": "merged pull request",
+      "ref": {
+        "label": "#84",
+        "url": "https://github.com/quirq-ai/xo/pull/84"
+      },
+      "title": "xo create space goes to the quirq hub only; GitHub needs --github"
+    },
+    {
+      "id": "18054375992",
+      "createdAt": "2026-10-23T20:36:12Z",
+      "actor": "vercel[bot]",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/35613825?",
+      "repo": "quirq-ai/xo",
+      "kind": "comment",
+      "verb": "commented on",
+      "ref": {
+        "label": "#84",
+        "url": "https://github.com/quirq-ai/xo/pull/84"
+      },
+      "title": "xo create space goes to the quirq hub only; GitHub needs --github"
+    },
+    {
+      "id": "18054370106",
+      "createdAt": "2026-10-23T20:36:09Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "pr",
+      "verb": "opened pull request",
+      "ref": {
+        "label": "#84",
+        "url": "https://github.com/quirq-ai/xo/pull/84"
+      },
+      "title": "xo create space goes to the quirq hub only; GitHub needs --github"
+    },
+    {
+      "id": "24974281968",
+      "createdAt": "2026-10-23T19:33:04Z",
+      "actor": "sharmasuraj0123",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/36091186?",
+      "repo": "quirq-ai/quirqy",
+      "kind": "push",
+      "verb": "pushed to main",
+      "ref": {
+        "label": "4aa401f",
+        "url": "https://github.com/quirq-ai/quirqy/commit/4aa401f8d0184bc3ea6c48ef4a7e8874437ea7ab"
+      },
+      "title": "Show repository website beside README in About dock"
+    },
+    {
+      "id": "24954784864",
+      "createdAt": "2026-10-23T18:54:29Z",
+      "actor": "sharmasuraj0123",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/36091186?",
+      "repo": "quirq-ai/quirqy",
+      "kind": "push",
+      "verb": "pushed to main",
+      "ref": {
+        "label": "54e1c34",
+        "url": "https://github.com/quirq-ai/quirqy/commit/54e1c343064728d9fac8ef8ab475c6a9ae6f95c5"
+      },
+      "title": "Add About README folio and refine repository scenes"
+    },
+    {
+      "id": "18041934059",
+      "createdAt": "2026-10-23T18:40:23Z",
+      "actor": "sharmasuraj0123",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/36091186?",
+      "repo": "quirq-ai/space-hub",
+      "kind": "review",
+      "verb": "reviewed pull request",
+      "ref": {
+        "label": "#1",
+        "url": "https://github.com/quirq-ai/space-hub/pull/1"
+      },
+      "title": "quirq remote and the xo store"
+    },
+    {
+      "id": "18037134405",
+      "createdAt": "2026-10-23T18:05:19Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "issue",
+      "verb": "opened issue",
+      "ref": {
+        "label": "#82",
+        "url": "https://github.com/quirq-ai/xo/issues/82"
+      },
+      "title": "Hub create space: follow-ups from the #81 audit"
+    },
+    {
+      "id": "18031205154",
+      "createdAt": "2026-10-23T17:26:20Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/space-hub",
+      "kind": "issue",
+      "verb": "opened issue",
+      "ref": {
+        "label": "#2",
+        "url": "https://github.com/quirq-ai/space-hub/issues/2"
+      },
+      "title": "xo store: follow-ups from the PR #1 audits"
+    },
+    {
+      "id": "18017672145",
+      "createdAt": "2026-10-23T15:14:23Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "issue",
+      "verb": "assigned issue",
+      "ref": {
+        "label": "#82",
+        "url": "https://github.com/quirq-ai/xo/issues/82"
+      },
+      "title": "Hub create space: follow-ups from the #81 audit"
+    },
+    {
+      "id": "24967188565",
+      "createdAt": "2026-10-23T14:58:11Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/space-hub",
+      "kind": "push",
+      "verb": "pushed to main",
+      "ref": {
+        "label": "be3706b",
+        "url": "https://github.com/quirq-ai/space-hub/commit/be3706baa17da56b3ecd9e702d4082e890cb9029"
+      },
+      "title": "quirq remote and the xo store (#1)"
+    },
+    {
+      "id": "18034125468",
+      "createdAt": "2026-10-23T14:58:10Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/space-hub",
+      "kind": "pr",
+      "verb": "merged pull request",
+      "ref": {
+        "label": "#1",
+        "url": "https://github.com/quirq-ai/space-hub/pull/1"
+      },
+      "title": "quirq remote and the xo store"
+    },
+    {
+      "id": "24955857972",
+      "createdAt": "2026-10-23T13:17:43Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "branch",
+      "verb": "deleted branch claude/project-thread-2tbby1"
+    },
+    {
+      "id": "18036844527",
+      "createdAt": "2026-10-23T13:17:40Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "pr",
+      "verb": "merged pull request",
+      "ref": {
+        "label": "#83",
+        "url": "https://github.com/quirq-ai/xo/pull/83"
+      },
+      "title": "Quickstart: install xo at 8c06611"
+    },
+    {
+      "id": "18044559796",
+      "createdAt": "2026-10-23T13:14:13Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/space-hub",
+      "kind": "comment",
+      "verb": "commented on",
+      "ref": {
+        "label": "#2",
+        "url": "https://github.com/quirq-ai/space-hub/issues/2"
+      },
+      "title": "xo store: follow-ups from the PR #1 audits"
+    },
+    {
+      "id": "18010922846",
+      "createdAt": "2026-10-23T13:13:26Z",
+      "actor": "vercel[bot]",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/35613825?",
+      "repo": "quirq-ai/xo",
+      "kind": "comment",
+      "verb": "commented on",
+      "ref": {
+        "label": "#83",
+        "url": "https://github.com/quirq-ai/xo/pull/83"
+      },
+      "title": "Quickstart: install xo at 8c06611"
+    },
+    {
+      "id": "18011255117",
+      "createdAt": "2026-10-23T13:13:20Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "pr",
+      "verb": "opened pull request",
+      "ref": {
+        "label": "#83",
+        "url": "https://github.com/quirq-ai/xo/pull/83"
+      },
+      "title": "Quickstart: install xo at 8c06611"
+    },
+    {
+      "id": "24939052597",
+      "createdAt": "2026-10-23T13:12:56Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/space-hub",
+      "kind": "push",
+      "verb": "pushed to claude/project-thread-q95j5o",
+      "ref": {
+        "label": "d2af067",
+        "url": "https://github.com/quirq-ai/space-hub/commit/d2af067ccd3fdc4f08e1678838aa9a8c427a0ead"
+      },
+      "title": "Compose passes SPACEHUB_XO_KEY to the server"
+    },
+    {
+      "id": "24938892907",
+      "createdAt": "2026-10-23T13:10:53Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "branch",
+      "verb": "deleted branch claude/project-thread-q95j5o"
+    },
+    {
+      "id": "24954087707",
+      "createdAt": "2026-10-23T13:10:51Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "push",
+      "verb": "pushed to main",
+      "ref": {
+        "label": "8c06611",
+        "url": "https://github.com/quirq-ai/xo/commit/8c06611b07818977f6bd3b472c2564882c8b5c68"
+      },
+      "title": "xo create space puts a folder space on the quirq hub once xo login fi…"
+    },
+    {
+      "id": "18035918575",
+      "createdAt": "2026-10-23T13:10:49Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "pr",
+      "verb": "merged pull request",
+      "ref": {
+        "label": "#81",
+        "url": "https://github.com/quirq-ai/xo/pull/81"
+      },
+      "title": "xo create space puts a folder space on the quirq hub once xo login finds one"
+    },
+    {
+      "id": "24952778602",
+      "createdAt": "2026-10-23T12:58:03Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "push",
+      "verb": "pushed to claude/project-thread-q95j5o",
+      "ref": {
+        "label": "c8cb30d",
+        "url": "https://github.com/quirq-ai/xo/commit/c8cb30d0d82d2bcb8cdee027664d44d76b1b182d"
+      },
+      "title": "Hub create space: compare the built branches with HEAD, not git status"
+    },
+    {
+      "id": "24951857296",
+      "createdAt": "2026-10-23T12:49:39Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "push",
+      "verb": "pushed to claude/project-thread-q95j5o",
+      "ref": {
+        "label": "548c75b",
+        "url": "https://github.com/quirq-ai/xo/commit/548c75badc3326dd2b90aacff4ea42d7166de378"
+      },
+      "title": "Hub create space: files GitHub lacks need the name typed; raw origin …"
+    },
+    {
+      "id": "24952015897",
+      "createdAt": "2026-10-23T12:41:42Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "push",
+      "verb": "pushed to claude/project-thread-q95j5o",
+      "ref": {
+        "label": "90491ad",
+        "url": "https://github.com/quirq-ai/xo/commit/90491ad928f2614675c6d2d5e83b6cb1cf9bfb2b"
+      },
+      "title": "Hub create space: nothing that is not public on GitHub goes there una…"
+    },
+    {
+      "id": "18080340680",
+      "createdAt": "2026-10-23T12:33:41Z",
+      "actor": "vercel[bot]",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/35613825?",
+      "repo": "quirq-ai/xo",
+      "kind": "comment",
+      "verb": "commented on",
+      "ref": {
+        "label": "#81",
+        "url": "https://github.com/quirq-ai/xo/pull/81"
+      },
+      "title": "xo create space puts a folder space on the quirq hub once xo login finds one"
+    },
+    {
+      "id": "18008940893",
+      "createdAt": "2026-10-23T12:33:34Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "pr",
+      "verb": "opened pull request",
+      "ref": {
+        "label": "#81",
+        "url": "https://github.com/quirq-ai/xo/pull/81"
+      },
+      "title": "xo create space puts a folder space on the quirq hub once xo login finds one"
+    },
+    {
+      "id": "18008843462",
+      "createdAt": "2026-10-23T12:33:34Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "pr",
+      "verb": "assigned pull request",
+      "ref": {
+        "label": "#81",
+        "url": "https://github.com/quirq-ai/xo/pull/81"
+      },
+      "title": "xo create space puts a folder space on the quirq hub once xo login finds one"
+    },
+    {
+      "id": "18008717159",
+      "createdAt": "2026-10-23T12:31:00Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "issue",
+      "verb": "closed issue",
+      "ref": {
+        "label": "#50",
+        "url": "https://github.com/quirq-ai/xo/issues/50"
+      },
+      "title": "update/sync space: fails when the space contains a repo you can't push to"
+    },
+    {
+      "id": "24934443544",
+      "createdAt": "2026-10-23T12:30:58Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "push",
+      "verb": "pushed to main",
+      "ref": {
+        "label": "1ef9c04",
+        "url": "https://github.com/quirq-ai/xo/commit/1ef9c0422bad4d76aad4b170427b552e4dc3fc01"
+      },
+      "title": "Spaces work through the quirq hub once xo login finds one (#80)"
+    },
+    {
+      "id": "18029513599",
+      "createdAt": "2026-10-23T12:30:57Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "pr",
+      "verb": "merged pull request",
+      "ref": {
+        "label": "#80",
+        "url": "https://github.com/quirq-ai/xo/pull/80"
+      },
+      "title": "Spaces work through the quirq hub once xo login finds one"
+    },
+    {
+      "id": "24934032835",
+      "createdAt": "2026-10-23T12:25:49Z",
+      "actor": "sharmasuraj0123",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/36091186?",
+      "repo": "quirq-ai/space-hub",
+      "kind": "push",
+      "verb": "pushed to main",
+      "ref": {
+        "label": "6f2de3d",
+        "url": "https://github.com/quirq-ai/space-hub/commit/6f2de3d1c5550191191f26d81572f9629f3ba837"
+      },
+      "title": "Home page guide: what spacehub is, who can use it, how to start"
+    },
+    {
+      "id": "18008441377",
+      "createdAt": "2026-10-23T12:25:21Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "comment",
+      "verb": "commented on",
+      "ref": {
+        "label": "#80",
+        "url": "https://github.com/quirq-ai/xo/pull/80"
+      },
+      "title": "Spaces work through the quirq hub once xo login finds one"
+    },
+    {
+      "id": "18054405608",
+      "createdAt": "2026-10-23T12:20:02Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/space-hub",
+      "kind": "comment",
+      "verb": "commented on",
+      "ref": {
+        "label": "#2",
+        "url": "https://github.com/quirq-ai/space-hub/issues/2"
+      },
+      "title": "xo store: follow-ups from the PR #1 audits"
+    },
+    {
+      "id": "18007776173",
+      "createdAt": "2026-10-23T12:12:38Z",
+      "actor": "vercel[bot]",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/35613825?",
+      "repo": "quirq-ai/xo",
+      "kind": "comment",
+      "verb": "commented on",
+      "ref": {
+        "label": "#80",
+        "url": "https://github.com/quirq-ai/xo/pull/80"
+      },
+      "title": "Spaces work through the quirq hub once xo login finds one"
+    },
+    {
+      "id": "18007776507",
+      "createdAt": "2026-10-23T12:12:31Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "pr",
+      "verb": "assigned pull request",
+      "ref": {
+        "label": "#80",
+        "url": "https://github.com/quirq-ai/xo/pull/80"
+      },
+      "title": "Spaces work through the quirq hub once xo login finds one"
+    },
+    {
+      "id": "18007771811",
+      "createdAt": "2026-10-23T12:12:31Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "pr",
+      "verb": "opened pull request",
+      "ref": {
+        "label": "#80",
+        "url": "https://github.com/quirq-ai/xo/pull/80"
+      },
+      "title": "Spaces work through the quirq hub once xo login finds one"
+    },
+    {
+      "id": "24948291554",
+      "createdAt": "2026-10-23T12:12:15Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "branch",
+      "verb": "created branch claude/project-thread-q95j5o"
+    },
+    {
+      "id": "24931795054",
+      "createdAt": "2026-10-23T11:58:19Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "branch",
+      "verb": "deleted branch claude/project-thread-q95j5o"
+    },
+    {
+      "id": "18030998434",
+      "createdAt": "2026-10-23T11:58:15Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "pr",
+      "verb": "merged pull request",
+      "ref": {
+        "label": "#79",
+        "url": "https://github.com/quirq-ai/xo/pull/79"
+      },
+      "title": "Server: hub cutover fixes before XO_HUB_URL is set"
+    },
+    {
+      "id": "18080610559",
+      "createdAt": "2026-10-23T11:53:16Z",
+      "actor": "vercel[bot]",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/35613825?",
+      "repo": "quirq-ai/xo",
+      "kind": "comment",
+      "verb": "commented on",
+      "ref": {
+        "label": "#79",
+        "url": "https://github.com/quirq-ai/xo/pull/79"
+      },
+      "title": "Server: hub cutover fixes before XO_HUB_URL is set"
+    }
+  ]
+}
