@@ -1,4 +1,4 @@
-# Space portfolio · GitHub
+# quirq space / github
 
 A public portfolio of this space's GitHub work: a card per project with what it
 is, where it runs (live links), its latest commits and merged pull requests,

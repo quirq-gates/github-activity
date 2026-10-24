@@ -12,7 +12,7 @@ export default function Home() {
 
   return (
     <>
-      <Header title={d.title} owners={d.owners} siblings={d.siblings} />
+      <Header title={d.title} siblings={d.siblings} />
       <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-6 sm:px-6">
         <section className="mb-6">
           <h1 className="text-2xl font-semibold tracking-tight">What we&apos;re building</h1>

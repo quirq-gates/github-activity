@@ -48,7 +48,7 @@ export default async function RepoPage({ params }: PageProps<"/[owner]/[repo]">)
 
   return (
     <>
-      <Header title={d.title} owners={d.owners} siblings={d.siblings} />
+      <Header title={d.title} siblings={d.siblings} />
       <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-6 sm:px-6">
         <Link href="/" className="text-sm text-ink-3 hover:text-ink">
           ← All projects

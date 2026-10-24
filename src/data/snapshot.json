@@ -1,10 +1,10 @@
 {
-  "takenAt": "2026-10-24T06:13:16.384Z",
-  "title": "Space portfolio",
+  "takenAt": "2026-10-24T06:15:32.332Z",
+  "title": "quirq space",
   "tagline": "The public work of this space: every project, what it is, where it runs and what was pushed lately.",
   "siblings": [
     {
-      "label": "Vercel",
+      "label": "Vercel ↗",
       "url": "https://vercel-activity-delta.vercel.app"
     }
   ],
@@ -1587,7 +1587,7 @@
       "forks": 0,
       "openIssues": 0,
       "openPRs": 0,
-      "pushedAt": "2026-10-23T21:03:15Z",
+      "pushedAt": "2026-10-24T06:15:25Z",
       "archived": false,
       "fork": false,
       "defaultBranch": "main",
@@ -1605,9 +1605,27 @@
         0,
         0,
         0,
-        6
+        8
       ],
       "commits": [
+        {
+          "oid": "bc9fc30f68757e2aeca2b00862c5e5be89cb9340",
+          "shortOid": "bc9fc30",
+          "headline": "Refresh snapshot",
+          "url": "https://github.com/quirq-gates/vercel-activity/commit/bc9fc30f68757e2aeca2b00862c5e5be89cb9340",
+          "committedAt": "2026-10-24T06:15:23Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "473e823f3384f27d77eeda700b176fd9a5cd48dd",
+          "shortOid": "473e823",
+          "headline": "Turn the dashboard into a static portfolio",
+          "url": "https://github.com/quirq-gates/vercel-activity/commit/473e823f3384f27d77eeda700b176fd9a5cd48dd",
+          "committedAt": "2026-10-24T06:13:22Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
         {
           "oid": "70116265d30f4e34b1541f0eff35fab57c6a81e0",
           "shortOid": "7011626",
@@ -1723,21 +1741,21 @@
     }
   ],
   "weekStarts": [
-    "2026-08-01T06:13:16.384Z",
-    "2026-08-08T06:13:16.384Z",
-    "2026-08-15T06:13:16.384Z",
-    "2026-08-22T06:13:16.384Z",
-    "2026-08-29T06:13:16.384Z",
-    "2026-09-05T06:13:16.384Z",
-    "2026-09-12T06:13:16.384Z",
-    "2026-09-19T06:13:16.384Z",
-    "2026-09-26T06:13:16.384Z",
-    "2026-10-03T06:13:16.384Z",
-    "2026-10-10T06:13:16.384Z",
-    "2026-10-17T06:13:16.384Z"
+    "2026-08-01T06:15:32.332Z",
+    "2026-08-08T06:15:32.332Z",
+    "2026-08-15T06:15:32.332Z",
+    "2026-08-22T06:15:32.332Z",
+    "2026-08-29T06:15:32.332Z",
+    "2026-09-05T06:15:32.332Z",
+    "2026-09-12T06:15:32.332Z",
+    "2026-09-19T06:15:32.332Z",
+    "2026-09-26T06:15:32.332Z",
+    "2026-10-03T06:15:32.332Z",
+    "2026-10-10T06:15:32.332Z",
+    "2026-10-17T06:15:32.332Z"
   ],
   "totals": {
-    "commits7d": 144,
+    "commits7d": 146,
     "activeRepos7d": 7,
     "prsOpened7d": 43,
     "prsMerged7d": 42,

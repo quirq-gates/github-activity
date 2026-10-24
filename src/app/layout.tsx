@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Space portfolio · GitHub",
+  title: "quirq space · on GitHub",
   description: "The public projects of this space: what they are, where they run and what was pushed lately",
 };
 

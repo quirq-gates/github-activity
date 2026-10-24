@@ -1,10 +1,10 @@
 {
   "$comment": "What the portfolio shows. Only these repos are fetched by `npm run snapshot`; each must be public.",
-  "title": "Space portfolio",
+  "title": "quirq space",
   "tagline": "The public work of this space: every project, what it is, where it runs and what was pushed lately.",
   "siblings": [
     {
-      "label": "Vercel",
+      "label": "Vercel ↗",
       "url": "https://vercel-activity-delta.vercel.app"
     }
   ],
