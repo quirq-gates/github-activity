@@ -1,7 +1,14 @@
 import Link from "next/link";
 import type { Link as SiteLink } from "@/lib/github";
+import { ThemeToggle } from "./theme-toggle";
 
-export function Header({ title, siblings }: { title: string; siblings: SiteLink[] }) {
+export function Header({
+  title,
+  siblings,
+}: {
+  title: string;
+  siblings: SiteLink[];
+}) {
   return (
     <header className="mx-auto flex w-full max-w-6xl flex-wrap items-center justify-between gap-4 px-4 pt-8 sm:px-6">
       <Link href="/" className="flex items-center gap-2 text-lg font-semibold">
@@ -11,16 +18,30 @@ export function Header({ title, siblings }: { title: string; siblings: SiteLink[
         {title}
         <span className="font-normal text-ink-3">/ github</span>
       </Link>
-      <nav aria-label="Portfolio sections" className="flex gap-1 rounded-lg border border-border bg-surface-1 p-1 text-sm">
-        {siblings.map((s) => (
-          <a key={s.url} href={s.url} className="rounded-md px-3 py-1.5 text-ink-3 hover:text-ink">
-            {s.label}
-          </a>
-        ))}
-        <Link href="/" aria-current="page" className="rounded-md bg-surface-2 px-3 py-1.5 text-ink">
-          GitHub
-        </Link>
-      </nav>
+      <div className="flex items-center gap-2">
+        <nav
+          aria-label="Portfolio sections"
+          className="flex gap-1 rounded-lg border border-border bg-surface-1 p-1 text-sm"
+        >
+          {siblings.map((s) => (
+            <a
+              key={s.url}
+              href={s.url}
+              className="rounded-md px-3 py-1.5 text-ink-3 hover:text-ink"
+            >
+              {s.label}
+            </a>
+          ))}
+          <Link
+            href="/"
+            aria-current="page"
+            className="rounded-md bg-surface-2 px-3 py-1.5 text-ink"
+          >
+            GitHub
+          </Link>
+        </nav>
+        <ThemeToggle />
+      </div>
     </header>
   );
 }

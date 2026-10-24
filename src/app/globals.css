@@ -1,7 +1,26 @@
 @import "tailwindcss";
 
-/* Dark-only, matching the Vercel portfolio (quirq space / vercel). */
+/* Light by default; the header switch sets data-theme="dark" on <html> (saved in localStorage).
+   Palettes are shared with the Vercel portfolio. */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
 :root {
+  color-scheme: light;
+  --surface-0: #f6f6f4;
+  --surface-1: #fcfcfb;
+  --surface-2: #f0efec;
+  --border: #e3e2de;
+  --text-primary: #0b0b0b;
+  --text-secondary: #52514e;
+  --text-muted: #77766f;
+  --accent: #2a78d6;
+  --accent-soft: #cde2fb;
+  --grid: #e8e7e3;
+  --good: #0ca30c;
+  --warning: #fab219;
+  --critical: #d03b3b;
+}
+:root[data-theme="dark"] {
   color-scheme: dark;
   --surface-0: #0b0b0b;
   --surface-1: #121211;
@@ -13,9 +32,6 @@
   --accent: #3987e5;
   --accent-soft: #184f95;
   --grid: #2a2a28;
-  --good: #0ca30c;
-  --warning: #fab219;
-  --critical: #d03b3b;
 }
 
 @theme inline {
