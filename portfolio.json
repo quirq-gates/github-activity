@@ -46,7 +46,7 @@
     },
     {
       "repo": "quirq-gates/vercel-activity",
-      "about": "vercel-activity is a small public Next.js dashboard, deployed on Vercel, of deployment activity for the Vercel projects deployed from this workspace (chosen in workspace.json), plus an /account page with the connected Vercel account and its domains. A server-only VERCEL_TOKEN reads the Vercel API; only allowlisted public-safe fields reach the page, cached 5 min.",
+      "about": "vercel-activity is a static public portfolio of what this space ships on Vercel (team quirq-research): a gallery of live projects with screenshots, a page per project with a \"Try it here\" live embed and deploy history, a recently-shipped feed and the team's domains. No token or API calls at runtime: `npm run snapshot` uses the local Vercel CLI login to write src/data/snapshot.json and screenshots, and showcase.json picks the projects. Built with Next.js and deployed with the Vercel CLI.",
       "links": [
         {
           "label": "Live site",

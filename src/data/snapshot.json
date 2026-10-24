@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-10-24T11:50:40.421Z",
+  "takenAt": "2026-10-24T12:00:35.462Z",
   "title": "Space portfolio",
   "tagline": "The public work of this space: every project, what it is, where it runs and what was pushed lately.",
   "siblings": [
@@ -792,8 +792,8 @@
       "stars": 0,
       "forks": 0,
       "openIssues": 1,
-      "openPRs": 0,
-      "pushedAt": "2026-10-24T11:46:56Z",
+      "openPRs": 1,
+      "pushedAt": "2026-10-24T11:55:47Z",
       "archived": false,
       "fork": false,
       "defaultBranch": "main",
@@ -986,7 +986,17 @@
           "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
         }
       ],
-      "openPulls": [],
+      "openPulls": [
+        {
+          "number": 9,
+          "title": "Sizes: what each project and space stores",
+          "url": "https://github.com/quirq-ai/space-hub/pull/9",
+          "draft": false,
+          "at": "2026-10-24T11:56:02Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        }
+      ],
       "mergedPulls": [
         {
           "number": 8,
@@ -1661,7 +1671,7 @@
       "name": "vercel-activity",
       "fullName": "quirq-gates/vercel-activity",
       "url": "https://github.com/quirq-gates/vercel-activity",
-      "about": "vercel-activity is a small public Next.js dashboard, deployed on Vercel, of deployment activity for the Vercel projects deployed from this workspace (chosen in workspace.json), plus an /account page with the connected Vercel account and its domains. A server-only VERCEL_TOKEN reads the Vercel API; only allowlisted public-safe fields reach the page, cached 5 min.",
+      "about": "vercel-activity is a static public portfolio of what this space ships on Vercel (team quirq-research): a gallery of live projects with screenshots, a page per project with a \"Try it here\" live embed and deploy history, a recently-shipped feed and the team's domains. No token or API calls at runtime: `npm run snapshot` uses the local Vercel CLI login to write src/data/snapshot.json and screenshots, and showcase.json picks the projects. Built with Next.js and deployed with the Vercel CLI.",
       "description": "Public dashboard of Vercel deployment activity for the projects deployed from our workspace",
       "links": [
         {
@@ -1677,7 +1687,7 @@
       "forks": 0,
       "openIssues": 0,
       "openPRs": 0,
-      "pushedAt": "2026-10-24T07:57:55Z",
+      "pushedAt": "2026-10-24T11:54:24Z",
       "archived": false,
       "fork": false,
       "defaultBranch": "main",
@@ -1695,9 +1705,36 @@
         0,
         0,
         0,
-        13
+        16
       ],
       "commits": [
+        {
+          "oid": "a8c22ec618a9be042b8fa68efcbb3de24154afb9",
+          "shortOid": "a8c22ec",
+          "headline": "Refresh snapshot",
+          "url": "https://github.com/quirq-gates/vercel-activity/commit/a8c22ec618a9be042b8fa68efcbb3de24154afb9",
+          "committedAt": "2026-10-24T11:54:22Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "90e6e5ea50f874098d510277a0efc4fc2be3d52d",
+          "shortOid": "90e6e5e",
+          "headline": "Match github-activity's navbar exactly",
+          "url": "https://github.com/quirq-gates/vercel-activity/commit/90e6e5ea50f874098d510277a0efc4fc2be3d52d",
+          "committedAt": "2026-10-24T11:53:20Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "2aff6ec13626a226680fb967191d73047214325d",
+          "shortOid": "2aff6ec",
+          "headline": "Bring back the subtle full-width top bar",
+          "url": "https://github.com/quirq-gates/vercel-activity/commit/2aff6ec13626a226680fb967191d73047214325d",
+          "committedAt": "2026-10-24T11:51:24Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
         {
           "oid": "c5ca6f16e23172b1e1df889f7644971cd8c59979",
           "shortOid": "c5ca6f1",
@@ -1840,7 +1877,7 @@
       "forks": 0,
       "openIssues": 0,
       "openPRs": 0,
-      "pushedAt": "2026-10-24T07:59:18Z",
+      "pushedAt": "2026-10-24T11:51:04Z",
       "archived": false,
       "fork": false,
       "defaultBranch": "main",
@@ -1858,9 +1895,18 @@
         0,
         0,
         0,
-        6
+        7
       ],
       "commits": [
+        {
+          "oid": "4394716d76d3e7a3963f2c1adbe18e64f437b479",
+          "shortOid": "4394716",
+          "headline": "Bring back the subtle full-width navbar, with the theme switch",
+          "url": "https://github.com/quirq-gates/github-activity/commit/4394716d76d3e7a3963f2c1adbe18e64f437b479",
+          "committedAt": "2026-10-24T11:51:03Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
         {
           "oid": "5e9c08723e9a679e537a54e68a7cdaef01ae55c4",
           "shortOid": "5e9c087",
@@ -1921,27 +1967,55 @@
     }
   ],
   "weekStarts": [
-    "2026-08-01T11:50:40.421Z",
-    "2026-08-08T11:50:40.421Z",
-    "2026-08-15T11:50:40.421Z",
-    "2026-08-22T11:50:40.421Z",
-    "2026-08-29T11:50:40.421Z",
-    "2026-09-05T11:50:40.421Z",
-    "2026-09-12T11:50:40.421Z",
-    "2026-09-19T11:50:40.421Z",
-    "2026-09-26T11:50:40.421Z",
-    "2026-10-03T11:50:40.421Z",
-    "2026-10-10T11:50:40.421Z",
-    "2026-10-17T11:50:40.421Z"
+    "2026-08-01T12:00:35.462Z",
+    "2026-08-08T12:00:35.462Z",
+    "2026-08-15T12:00:35.462Z",
+    "2026-08-22T12:00:35.462Z",
+    "2026-08-29T12:00:35.462Z",
+    "2026-09-05T12:00:35.462Z",
+    "2026-09-12T12:00:35.462Z",
+    "2026-09-19T12:00:35.462Z",
+    "2026-09-26T12:00:35.462Z",
+    "2026-10-03T12:00:35.462Z",
+    "2026-10-10T12:00:35.462Z",
+    "2026-10-17T12:00:35.462Z"
   ],
   "totals": {
-    "commits7d": 160,
+    "commits7d": 164,
     "activeRepos7d": 7,
-    "prsOpened7d": 50,
+    "prsOpened7d": 51,
     "prsMerged7d": 46,
     "issuesOpened7d": 21
   },
   "feed": [
+    {
+      "id": "18101574529",
+      "createdAt": "2026-10-24T11:56:02Z",
+      "actor": "sharmasuraj0123",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/36091186?",
+      "repo": "quirq-ai/space-hub",
+      "kind": "pr",
+      "verb": "opened pull request",
+      "ref": {
+        "label": "#9",
+        "url": "https://github.com/quirq-ai/space-hub/pull/9"
+      },
+      "title": "Sizes: what each project and space stores"
+    },
+    {
+      "id": "25021201539",
+      "createdAt": "2026-10-24T11:53:22Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-gates/vercel-activity",
+      "kind": "push",
+      "verb": "pushed to main",
+      "ref": {
+        "label": "90e6e5e",
+        "url": "https://github.com/quirq-gates/vercel-activity/commit/90e6e5ea50f874098d510277a0efc4fc2be3d52d"
+      },
+      "title": "Match github-activity's navbar exactly"
+    },
     {
       "id": "18101022857",
       "createdAt": "2026-10-24T11:40:59Z",
@@ -2329,6 +2403,15 @@
       "title": "Edit one space together: members, autosync, presence, live pages"
     },
     {
+      "id": "25021177409",
+      "createdAt": "2026-10-24T06:05:31Z",
+      "actor": "sharmasuraj0123",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/36091186?",
+      "repo": "quirq-ai/space-hub",
+      "kind": "branch",
+      "verb": "created branch claude/realtime-collab"
+    },
+    {
       "id": "24982073156",
       "createdAt": "2026-10-23T21:03:16Z",
       "actor": "quirq-gates",
@@ -2684,43 +2767,6 @@
         "url": "https://github.com/quirq-ai/xo/issues/82"
       },
       "title": "Hub create space: follow-ups from the #81 audit"
-    },
-    {
-      "id": "24967188565",
-      "createdAt": "2026-10-23T14:58:11Z",
-      "actor": "quirq-gates",
-      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
-      "repo": "quirq-ai/space-hub",
-      "kind": "push",
-      "verb": "pushed to main",
-      "ref": {
-        "label": "be3706b",
-        "url": "https://github.com/quirq-ai/space-hub/commit/be3706baa17da56b3ecd9e702d4082e890cb9029"
-      },
-      "title": "quirq remote and the xo store (#1)"
-    },
-    {
-      "id": "18034125468",
-      "createdAt": "2026-10-23T14:58:10Z",
-      "actor": "quirq-gates",
-      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
-      "repo": "quirq-ai/space-hub",
-      "kind": "pr",
-      "verb": "merged pull request",
-      "ref": {
-        "label": "#1",
-        "url": "https://github.com/quirq-ai/space-hub/pull/1"
-      },
-      "title": "quirq remote and the xo store"
-    },
-    {
-      "id": "24955857972",
-      "createdAt": "2026-10-23T13:17:43Z",
-      "actor": "quirq-gates",
-      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
-      "repo": "quirq-ai/xo",
-      "kind": "branch",
-      "verb": "deleted branch claude/project-thread-2tbby1"
     }
   ]
 }
