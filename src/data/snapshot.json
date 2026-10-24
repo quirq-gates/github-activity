@@ -1,6 +1,6 @@
 {
-  "takenAt": "2026-10-24T07:54:02.436Z",
-  "title": "quirq space",
+  "takenAt": "2026-10-24T07:59:09.605Z",
+  "title": "Space portfolio",
   "tagline": "The public work of this space: every project, what it is, where it runs and what was pushed lately.",
   "siblings": [
     {
@@ -1587,7 +1587,7 @@
       "forks": 0,
       "openIssues": 0,
       "openPRs": 0,
-      "pushedAt": "2026-10-24T07:51:53Z",
+      "pushedAt": "2026-10-24T07:57:55Z",
       "archived": false,
       "fork": false,
       "defaultBranch": "main",
@@ -1605,9 +1605,36 @@
         0,
         0,
         0,
-        10
+        13
       ],
       "commits": [
+        {
+          "oid": "c5ca6f16e23172b1e1df889f7644971cd8c59979",
+          "shortOid": "c5ca6f1",
+          "headline": "Refresh snapshot",
+          "url": "https://github.com/quirq-gates/vercel-activity/commit/c5ca6f16e23172b1e1df889f7644971cd8c59979",
+          "committedAt": "2026-10-24T07:57:53Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "6b383b313df0789dd5bf252b8eb4fd349c7f23ee",
+          "shortOid": "6b383b3",
+          "headline": "Match the GitHub portfolio's header and theme switch",
+          "url": "https://github.com/quirq-gates/vercel-activity/commit/6b383b313df0789dd5bf252b8eb4fd349c7f23ee",
+          "committedAt": "2026-10-24T07:56:48Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "381b8e46afb6f5dd2c1b224e9209ec1c508aa4f4",
+          "shortOid": "381b8e4",
+          "headline": "Add dark mode and a light/dark switch",
+          "url": "https://github.com/quirq-gates/vercel-activity/commit/381b8e46afb6f5dd2c1b224e9209ec1c508aa4f4",
+          "committedAt": "2026-10-24T07:54:15Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
         {
           "oid": "d43a16930ae2303b47a817fbafb511e58a73735a",
           "shortOid": "d43a169",
@@ -1723,7 +1750,7 @@
       "forks": 0,
       "openIssues": 0,
       "openPRs": 0,
-      "pushedAt": "2026-10-24T07:46:31Z",
+      "pushedAt": "2026-10-24T07:56:24Z",
       "archived": false,
       "fork": false,
       "defaultBranch": "main",
@@ -1741,9 +1768,27 @@
         0,
         0,
         0,
-        3
+        5
       ],
       "commits": [
+        {
+          "oid": "2217e26a17d472338de8ec9d628ee597d309ffd2",
+          "shortOid": "2217e26",
+          "headline": "Follow the OS theme until the visitor picks one, like the Vercel port…",
+          "url": "https://github.com/quirq-gates/github-activity/commit/2217e26a17d472338de8ec9d628ee597d309ffd2",
+          "committedAt": "2026-10-24T07:56:23Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
+        {
+          "oid": "beb574b833cb7bdd5c5d0ac9783a9b6d87f2d786",
+          "shortOid": "beb574b",
+          "headline": "Light by default, with a light/dark switch in the header",
+          "url": "https://github.com/quirq-gates/github-activity/commit/beb574b833cb7bdd5c5d0ac9783a9b6d87f2d786",
+          "committedAt": "2026-10-24T07:54:10Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
         {
           "oid": "689f0cede69d71213058fcbd6100f686737f6dac",
           "shortOid": "689f0ce",
@@ -1777,21 +1822,21 @@
     }
   ],
   "weekStarts": [
-    "2026-08-01T07:54:02.436Z",
-    "2026-08-08T07:54:02.436Z",
-    "2026-08-15T07:54:02.436Z",
-    "2026-08-22T07:54:02.436Z",
-    "2026-08-29T07:54:02.436Z",
-    "2026-09-05T07:54:02.436Z",
-    "2026-09-12T07:54:02.436Z",
-    "2026-09-19T07:54:02.436Z",
-    "2026-09-26T07:54:02.436Z",
-    "2026-10-03T07:54:02.436Z",
-    "2026-10-10T07:54:02.436Z",
-    "2026-10-17T07:54:02.436Z"
+    "2026-08-01T07:59:09.605Z",
+    "2026-08-08T07:59:09.605Z",
+    "2026-08-15T07:59:09.605Z",
+    "2026-08-22T07:59:09.605Z",
+    "2026-08-29T07:59:09.605Z",
+    "2026-09-05T07:59:09.605Z",
+    "2026-09-12T07:59:09.605Z",
+    "2026-09-19T07:59:09.605Z",
+    "2026-09-26T07:59:09.605Z",
+    "2026-10-03T07:59:09.605Z",
+    "2026-10-10T07:59:09.605Z",
+    "2026-10-17T07:59:09.605Z"
   ],
   "totals": {
-    "commits7d": 150,
+    "commits7d": 155,
     "activeRepos7d": 7,
     "prsOpened7d": 43,
     "prsMerged7d": 42,

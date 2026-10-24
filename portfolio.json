@@ -1,6 +1,6 @@
 {
   "$comment": "What the portfolio shows. Only these repos are fetched by `npm run snapshot`; each must be public.",
-  "title": "quirq space",
+  "title": "Space portfolio",
   "tagline": "The public work of this space: every project, what it is, where it runs and what was pushed lately.",
   "siblings": [
     {
