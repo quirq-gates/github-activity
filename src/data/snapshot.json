@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-10-25T06:00:48.343Z",
+  "takenAt": "2026-10-25T12:00:17.220Z",
   "title": "Space portfolio",
   "tagline": "The public work of this space: every project, what it is, where it runs and what was pushed lately.",
   "siblings": [
@@ -1094,8 +1094,8 @@
         0,
         0,
         0,
-        0,
-        38,
+        2,
+        36,
         1,
         2
       ],
@@ -1687,7 +1687,7 @@
       "forks": 0,
       "openIssues": 0,
       "openPRs": 0,
-      "pushedAt": "2026-10-25T00:02:04Z",
+      "pushedAt": "2026-10-25T06:02:27Z",
       "archived": false,
       "fork": false,
       "defaultBranch": "main",
@@ -1705,9 +1705,18 @@
         0,
         0,
         0,
-        19
+        20
       ],
       "commits": [
+        {
+          "oid": "1e97be751ff2211210423d5e5bd5bc88400050a5",
+          "shortOid": "1e97be7",
+          "headline": "Hourly snapshot 2026-10-25 06:00 UTC",
+          "url": "https://github.com/quirq-gates/vercel-activity/commit/1e97be751ff2211210423d5e5bd5bc88400050a5",
+          "committedAt": "2026-10-25T06:02:26Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
         {
           "oid": "7b863c8ab35130a5f7ec44a57945396d7647f6aa",
           "shortOid": "7b863c8",
@@ -1904,7 +1913,7 @@
       "forks": 0,
       "openIssues": 0,
       "openPRs": 0,
-      "pushedAt": "2026-10-25T00:00:34Z",
+      "pushedAt": "2026-10-25T06:01:06Z",
       "archived": false,
       "fork": false,
       "defaultBranch": "main",
@@ -1922,9 +1931,18 @@
         0,
         0,
         0,
-        10
+        11
       ],
       "commits": [
+        {
+          "oid": "082d676fd3be827028f5677f11b9424d344a3099",
+          "shortOid": "082d676",
+          "headline": "Hourly snapshot 2026-10-25 06:00 UTC",
+          "url": "https://github.com/quirq-gates/github-activity/commit/082d676fd3be827028f5677f11b9424d344a3099",
+          "committedAt": "2026-10-25T06:01:04Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
         {
           "oid": "02485d4985130c25ce29c6a51e53db4caa92e308",
           "shortOid": "02485d4",
@@ -2021,27 +2039,41 @@
     }
   ],
   "weekStarts": [
-    "2026-08-02T06:00:48.343Z",
-    "2026-08-09T06:00:48.343Z",
-    "2026-08-16T06:00:48.343Z",
-    "2026-08-23T06:00:48.343Z",
-    "2026-08-30T06:00:48.343Z",
-    "2026-09-06T06:00:48.343Z",
-    "2026-09-13T06:00:48.343Z",
-    "2026-09-20T06:00:48.343Z",
-    "2026-09-27T06:00:48.343Z",
-    "2026-10-04T06:00:48.343Z",
-    "2026-10-11T06:00:48.343Z",
-    "2026-10-18T06:00:48.343Z"
+    "2026-08-02T12:00:17.220Z",
+    "2026-08-09T12:00:17.220Z",
+    "2026-08-16T12:00:17.220Z",
+    "2026-08-23T12:00:17.220Z",
+    "2026-08-30T12:00:17.220Z",
+    "2026-09-06T12:00:17.220Z",
+    "2026-09-13T12:00:17.220Z",
+    "2026-09-20T12:00:17.220Z",
+    "2026-09-27T12:00:17.220Z",
+    "2026-10-04T12:00:17.220Z",
+    "2026-10-11T12:00:17.220Z",
+    "2026-10-18T12:00:17.220Z"
   ],
   "totals": {
-    "commits7d": 163,
+    "commits7d": 165,
     "activeRepos7d": 7,
     "prsOpened7d": 46,
     "prsMerged7d": 42,
     "issuesOpened7d": 21
   },
   "feed": [
+    {
+      "id": "25099957114",
+      "createdAt": "2026-10-25T06:02:28Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-gates/vercel-activity",
+      "kind": "push",
+      "verb": "pushed to main",
+      "ref": {
+        "label": "1e97be7",
+        "url": "https://github.com/quirq-gates/vercel-activity/commit/1e97be751ff2211210423d5e5bd5bc88400050a5"
+      },
+      "title": "Hourly snapshot 2026-10-25 06:00 UTC"
+    },
     {
       "id": "25089613665",
       "createdAt": "2026-10-25T00:02:04Z",
@@ -2549,6 +2581,20 @@
       "verb": "created branch claude/spaces-model"
     },
     {
+      "id": "25112753344",
+      "createdAt": "2026-10-24T07:59:19Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-gates/github-activity",
+      "kind": "push",
+      "verb": "pushed to main",
+      "ref": {
+        "label": "5e9c087",
+        "url": "https://github.com/quirq-gates/github-activity/commit/5e9c08723e9a679e537a54e68a7cdaef01ae55c4"
+      },
+      "title": "Rename to Space portfolio, matching vercel-activity"
+    },
+    {
       "id": "25031893276",
       "createdAt": "2026-10-24T07:57:55Z",
       "actor": "quirq-gates",
@@ -2619,6 +2665,20 @@
       "title": "Light by default, with a light/dark switch in the header"
     },
     {
+      "id": "25112324335",
+      "createdAt": "2026-10-24T07:51:54Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-gates/vercel-activity",
+      "kind": "push",
+      "verb": "pushed to main",
+      "ref": {
+        "label": "d43a169",
+        "url": "https://github.com/quirq-gates/vercel-activity/commit/d43a16930ae2303b47a817fbafb511e58a73735a"
+      },
+      "title": "Refresh snapshot"
+    },
+    {
       "id": "25026889185",
       "createdAt": "2026-10-24T07:50:41Z",
       "actor": "quirq-gates",
@@ -2631,6 +2691,34 @@
         "url": "https://github.com/quirq-gates/vercel-activity/commit/2a7e8e8c4c2eeb68f6fe237eeb37766f94611afd"
       },
       "title": "Match the GitHub portfolio: light theme, Space portfolio header"
+    },
+    {
+      "id": "25112733101",
+      "createdAt": "2026-10-24T07:46:32Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-gates/github-activity",
+      "kind": "push",
+      "verb": "pushed to main",
+      "ref": {
+        "label": "689f0ce",
+        "url": "https://github.com/quirq-gates/github-activity/commit/689f0cede69d71213058fcbd6100f686737f6dac"
+      },
+      "title": "Match the Vercel portfolio: dark theme, quirq space header, Vercel/Gi…"
+    },
+    {
+      "id": "25107926234",
+      "createdAt": "2026-10-24T06:15:25Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-gates/vercel-activity",
+      "kind": "push",
+      "verb": "pushed to main",
+      "ref": {
+        "label": "bc9fc30",
+        "url": "https://github.com/quirq-gates/vercel-activity/commit/bc9fc30f68757e2aeca2b00862c5e5be89cb9340"
+      },
+      "title": "Refresh snapshot"
     },
     {
       "id": "24998544338",
@@ -2761,71 +2849,6 @@
       "repo": "quirq-ai/space-hub",
       "kind": "branch",
       "verb": "created branch claude/realtime-collab"
-    },
-    {
-      "id": "24982073156",
-      "createdAt": "2026-10-23T21:03:16Z",
-      "actor": "quirq-gates",
-      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
-      "repo": "quirq-gates/vercel-activity",
-      "kind": "push",
-      "verb": "pushed to main",
-      "ref": {
-        "label": "7011626",
-        "url": "https://github.com/quirq-gates/vercel-activity/commit/70116265d30f4e34b1541f0eff35fab57c6a81e0"
-      },
-      "title": "Show every project in the quirq-research team"
-    },
-    {
-      "id": "25004278730",
-      "createdAt": "2026-10-23T21:01:55Z",
-      "actor": "quirq-gates",
-      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
-      "repo": "quirq-gates/vercel-activity",
-      "kind": "push",
-      "verb": "pushed to main",
-      "ref": {
-        "label": "1dcf37d",
-        "url": "https://github.com/quirq-gates/vercel-activity/commit/1dcf37d323f70407bc57bd70bdb1fd379934c25a"
-      },
-      "title": "Document PROJECTS env var"
-    },
-    {
-      "id": "25075846676",
-      "createdAt": "2026-10-23T21:01:49Z",
-      "actor": "quirq-gates",
-      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
-      "repo": "quirq-gates/vercel-activity",
-      "kind": "push",
-      "verb": "pushed to main",
-      "ref": {
-        "label": "a38b8b1",
-        "url": "https://github.com/quirq-gates/vercel-activity/commit/a38b8b160098148990b61ed98ee5e68f72b15160"
-      },
-      "title": "Support CLI-deployed projects and whole-team scope"
-    },
-    {
-      "id": "24991176612",
-      "createdAt": "2026-10-23T20:57:46Z",
-      "actor": "quirq-gates",
-      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
-      "repo": "quirq-ai/xo",
-      "kind": "branch",
-      "verb": "deleted branch claude/project-thread-q95j5o"
-    },
-    {
-      "id": "24995919186",
-      "createdAt": "2026-10-23T20:57:44Z",
-      "actor": "quirq-gates",
-      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
-      "repo": "quirq-ai/xo",
-      "kind": "push",
-      "verb": "pushed to main",
-      "ref": {
-        "label": "593cda7",
-        "url": "https://github.com/quirq-ai/xo/commit/593cda7523d13cffb68fb34cfd75cc5448d920c9"
-      },
-      "title": "Quickstart: install xo at 38361fb (#87)"
     }
   ]
 }
