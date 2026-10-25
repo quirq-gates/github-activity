@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-10-25T00:00:14.082Z",
+  "takenAt": "2026-10-25T06:00:48.343Z",
   "title": "Space portfolio",
   "tagline": "The public work of this space: every project, what it is, where it runs and what was pushed lately.",
   "siblings": [
@@ -68,8 +68,8 @@
         0,
         0,
         0,
-        39,
-        31
+        42,
+        28
       ],
       "commits": [
         {
@@ -1687,7 +1687,7 @@
       "forks": 0,
       "openIssues": 0,
       "openPRs": 0,
-      "pushedAt": "2026-10-24T18:02:20Z",
+      "pushedAt": "2026-10-25T00:02:04Z",
       "archived": false,
       "fork": false,
       "defaultBranch": "main",
@@ -1705,9 +1705,18 @@
         0,
         0,
         0,
-        18
+        19
       ],
       "commits": [
+        {
+          "oid": "7b863c8ab35130a5f7ec44a57945396d7647f6aa",
+          "shortOid": "7b863c8",
+          "headline": "Refresh snapshot 2026-10-25 00:00 UTC",
+          "url": "https://github.com/quirq-gates/vercel-activity/commit/7b863c8ab35130a5f7ec44a57945396d7647f6aa",
+          "committedAt": "2026-10-25T00:02:02Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
         {
           "oid": "4f9cf7683939f5b5efb548bd146630e51c995cea",
           "shortOid": "4f9cf76",
@@ -1895,7 +1904,7 @@
       "forks": 0,
       "openIssues": 0,
       "openPRs": 0,
-      "pushedAt": "2026-10-24T18:00:39Z",
+      "pushedAt": "2026-10-25T00:00:34Z",
       "archived": false,
       "fork": false,
       "defaultBranch": "main",
@@ -1913,9 +1922,18 @@
         0,
         0,
         0,
-        9
+        10
       ],
       "commits": [
+        {
+          "oid": "02485d4985130c25ce29c6a51e53db4caa92e308",
+          "shortOid": "02485d4",
+          "headline": "Hourly snapshot 2026-10-25 00:00 UTC",
+          "url": "https://github.com/quirq-gates/github-activity/commit/02485d4985130c25ce29c6a51e53db4caa92e308",
+          "committedAt": "2026-10-25T00:00:32Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
         {
           "oid": "74cf2c816f72423192353164c94c7bff332b4c9a",
           "shortOid": "74cf2c8",
@@ -2003,27 +2021,55 @@
     }
   ],
   "weekStarts": [
-    "2026-08-02T00:00:14.082Z",
-    "2026-08-09T00:00:14.082Z",
-    "2026-08-16T00:00:14.082Z",
-    "2026-08-23T00:00:14.082Z",
-    "2026-08-30T00:00:14.082Z",
-    "2026-09-06T00:00:14.082Z",
-    "2026-09-13T00:00:14.082Z",
-    "2026-09-20T00:00:14.082Z",
-    "2026-09-27T00:00:14.082Z",
-    "2026-10-04T00:00:14.082Z",
-    "2026-10-11T00:00:14.082Z",
-    "2026-10-18T00:00:14.082Z"
+    "2026-08-02T06:00:48.343Z",
+    "2026-08-09T06:00:48.343Z",
+    "2026-08-16T06:00:48.343Z",
+    "2026-08-23T06:00:48.343Z",
+    "2026-08-30T06:00:48.343Z",
+    "2026-09-06T06:00:48.343Z",
+    "2026-09-13T06:00:48.343Z",
+    "2026-09-20T06:00:48.343Z",
+    "2026-09-27T06:00:48.343Z",
+    "2026-10-04T06:00:48.343Z",
+    "2026-10-11T06:00:48.343Z",
+    "2026-10-18T06:00:48.343Z"
   ],
   "totals": {
-    "commits7d": 164,
+    "commits7d": 163,
     "activeRepos7d": 7,
     "prsOpened7d": 46,
     "prsMerged7d": 42,
     "issuesOpened7d": 21
   },
   "feed": [
+    {
+      "id": "25089613665",
+      "createdAt": "2026-10-25T00:02:04Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-gates/vercel-activity",
+      "kind": "push",
+      "verb": "pushed to main",
+      "ref": {
+        "label": "7b863c8",
+        "url": "https://github.com/quirq-gates/vercel-activity/commit/7b863c8ab35130a5f7ec44a57945396d7647f6aa"
+      },
+      "title": "Refresh snapshot 2026-10-25 00:00 UTC"
+    },
+    {
+      "id": "25082844313",
+      "createdAt": "2026-10-25T00:00:35Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-gates/github-activity",
+      "kind": "push",
+      "verb": "pushed to main",
+      "ref": {
+        "label": "02485d4",
+        "url": "https://github.com/quirq-gates/github-activity/commit/02485d4985130c25ce29c6a51e53db4caa92e308"
+      },
+      "title": "Hourly snapshot 2026-10-25 00:00 UTC"
+    },
     {
       "id": "25048393936",
       "createdAt": "2026-10-24T18:02:21Z",
@@ -2745,6 +2791,20 @@
       "title": "Document PROJECTS env var"
     },
     {
+      "id": "25075846676",
+      "createdAt": "2026-10-23T21:01:49Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-gates/vercel-activity",
+      "kind": "push",
+      "verb": "pushed to main",
+      "ref": {
+        "label": "a38b8b1",
+        "url": "https://github.com/quirq-gates/vercel-activity/commit/a38b8b160098148990b61ed98ee5e68f72b15160"
+      },
+      "title": "Support CLI-deployed projects and whole-team scope"
+    },
+    {
       "id": "24991176612",
       "createdAt": "2026-10-23T20:57:46Z",
       "actor": "quirq-gates",
@@ -2766,48 +2826,6 @@
         "url": "https://github.com/quirq-ai/xo/commit/593cda7523d13cffb68fb34cfd75cc5448d920c9"
       },
       "title": "Quickstart: install xo at 38361fb (#87)"
-    },
-    {
-      "id": "18056358022",
-      "createdAt": "2026-10-23T20:57:43Z",
-      "actor": "quirq-gates",
-      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
-      "repo": "quirq-ai/xo",
-      "kind": "pr",
-      "verb": "merged pull request",
-      "ref": {
-        "label": "#87",
-        "url": "https://github.com/quirq-ai/xo/pull/87"
-      },
-      "title": "Quickstart: install xo at 38361fb"
-    },
-    {
-      "id": "18055890093",
-      "createdAt": "2026-10-23T20:52:22Z",
-      "actor": "vercel[bot]",
-      "actorAvatar": "https://avatars.githubusercontent.com/u/35613825?",
-      "repo": "quirq-ai/xo",
-      "kind": "comment",
-      "verb": "commented on",
-      "ref": {
-        "label": "#87",
-        "url": "https://github.com/quirq-ai/xo/pull/87"
-      },
-      "title": "Quickstart: install xo at 38361fb"
-    },
-    {
-      "id": "18055877880",
-      "createdAt": "2026-10-23T20:52:15Z",
-      "actor": "quirq-gates",
-      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
-      "repo": "quirq-ai/xo",
-      "kind": "pr",
-      "verb": "opened pull request",
-      "ref": {
-        "label": "#87",
-        "url": "https://github.com/quirq-ai/xo/pull/87"
-      },
-      "title": "Quickstart: install xo at 38361fb"
     }
   ]
 }
