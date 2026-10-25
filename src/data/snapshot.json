@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-10-24T18:00:14.791Z",
+  "takenAt": "2026-10-25T00:00:14.082Z",
   "title": "Space portfolio",
   "tagline": "The public work of this space: every project, what it is, where it runs and what was pushed lately.",
   "siblings": [
@@ -68,8 +68,8 @@
         0,
         0,
         0,
-        37,
-        33
+        39,
+        31
       ],
       "commits": [
         {
@@ -1687,7 +1687,7 @@
       "forks": 0,
       "openIssues": 0,
       "openPRs": 0,
-      "pushedAt": "2026-10-24T12:02:25Z",
+      "pushedAt": "2026-10-24T18:02:20Z",
       "archived": false,
       "fork": false,
       "defaultBranch": "main",
@@ -1705,9 +1705,18 @@
         0,
         0,
         0,
-        17
+        18
       ],
       "commits": [
+        {
+          "oid": "4f9cf7683939f5b5efb548bd146630e51c995cea",
+          "shortOid": "4f9cf76",
+          "headline": "Refresh snapshot 2026-10-24 18:00 UTC",
+          "url": "https://github.com/quirq-gates/vercel-activity/commit/4f9cf7683939f5b5efb548bd146630e51c995cea",
+          "committedAt": "2026-10-24T18:02:18Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
         {
           "oid": "b76f439ae6e65b0320b0fc8cc19ddfe8d15c4db3",
           "shortOid": "b76f439",
@@ -1886,7 +1895,7 @@
       "forks": 0,
       "openIssues": 0,
       "openPRs": 0,
-      "pushedAt": "2026-10-24T12:00:48Z",
+      "pushedAt": "2026-10-24T18:00:39Z",
       "archived": false,
       "fork": false,
       "defaultBranch": "main",
@@ -1904,9 +1913,18 @@
         0,
         0,
         0,
-        8
+        9
       ],
       "commits": [
+        {
+          "oid": "74cf2c816f72423192353164c94c7bff332b4c9a",
+          "shortOid": "74cf2c8",
+          "headline": "Hourly snapshot 2026-10-24 18:00 UTC",
+          "url": "https://github.com/quirq-gates/github-activity/commit/74cf2c816f72423192353164c94c7bff332b4c9a",
+          "committedAt": "2026-10-24T18:00:38Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
         {
           "oid": "c8f5d4658a24283a63ec7c013062e509168e6cc7",
           "shortOid": "c8f5d46",
@@ -1985,27 +2003,55 @@
     }
   ],
   "weekStarts": [
-    "2026-08-01T18:00:14.791Z",
-    "2026-08-08T18:00:14.791Z",
-    "2026-08-15T18:00:14.791Z",
-    "2026-08-22T18:00:14.791Z",
-    "2026-08-29T18:00:14.791Z",
-    "2026-09-05T18:00:14.791Z",
-    "2026-09-12T18:00:14.791Z",
-    "2026-09-19T18:00:14.791Z",
-    "2026-09-26T18:00:14.791Z",
-    "2026-10-03T18:00:14.791Z",
-    "2026-10-10T18:00:14.791Z",
-    "2026-10-17T18:00:14.791Z"
+    "2026-08-02T00:00:14.082Z",
+    "2026-08-09T00:00:14.082Z",
+    "2026-08-16T00:00:14.082Z",
+    "2026-08-23T00:00:14.082Z",
+    "2026-08-30T00:00:14.082Z",
+    "2026-09-06T00:00:14.082Z",
+    "2026-09-13T00:00:14.082Z",
+    "2026-09-20T00:00:14.082Z",
+    "2026-09-27T00:00:14.082Z",
+    "2026-10-04T00:00:14.082Z",
+    "2026-10-11T00:00:14.082Z",
+    "2026-10-18T00:00:14.082Z"
   ],
   "totals": {
     "commits7d": 164,
     "activeRepos7d": 7,
-    "prsOpened7d": 51,
-    "prsMerged7d": 46,
+    "prsOpened7d": 46,
+    "prsMerged7d": 42,
     "issuesOpened7d": 21
   },
   "feed": [
+    {
+      "id": "25048393936",
+      "createdAt": "2026-10-24T18:02:21Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-gates/vercel-activity",
+      "kind": "push",
+      "verb": "pushed to main",
+      "ref": {
+        "label": "4f9cf76",
+        "url": "https://github.com/quirq-gates/vercel-activity/commit/4f9cf7683939f5b5efb548bd146630e51c995cea"
+      },
+      "title": "Refresh snapshot 2026-10-24 18:00 UTC"
+    },
+    {
+      "id": "25048264404",
+      "createdAt": "2026-10-24T18:00:40Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-gates/github-activity",
+      "kind": "push",
+      "verb": "pushed to main",
+      "ref": {
+        "label": "74cf2c8",
+        "url": "https://github.com/quirq-gates/github-activity/commit/74cf2c816f72423192353164c94c7bff332b4c9a"
+      },
+      "title": "Hourly snapshot 2026-10-24 18:00 UTC"
+    },
     {
       "id": "25045275555",
       "createdAt": "2026-10-24T12:02:26Z",
@@ -2084,6 +2130,20 @@
         "url": "https://github.com/quirq-gates/vercel-activity/commit/90e6e5ea50f874098d510277a0efc4fc2be3d52d"
       },
       "title": "Match github-activity's navbar exactly"
+    },
+    {
+      "id": "25060458983",
+      "createdAt": "2026-10-24T11:51:26Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-gates/vercel-activity",
+      "kind": "push",
+      "verb": "pushed to main",
+      "ref": {
+        "label": "2aff6ec",
+        "url": "https://github.com/quirq-gates/vercel-activity/commit/2aff6ec13626a226680fb967191d73047214325d"
+      },
+      "title": "Bring back the subtle full-width top bar"
     },
     {
       "id": "25039037165",
@@ -2748,38 +2808,6 @@
         "url": "https://github.com/quirq-ai/xo/pull/87"
       },
       "title": "Quickstart: install xo at 38361fb"
-    },
-    {
-      "id": "24981127219",
-      "createdAt": "2026-10-23T20:52:10Z",
-      "actor": "quirq-gates",
-      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
-      "repo": "quirq-ai/xo",
-      "kind": "branch",
-      "verb": "created branch claude/project-thread-q95j5o"
-    },
-    {
-      "id": "24981128114",
-      "createdAt": "2026-10-23T20:52:10Z",
-      "actor": "quirq-gates",
-      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
-      "repo": "quirq-gates/vercel-activity",
-      "kind": "branch",
-      "verb": "created branch main"
-    },
-    {
-      "id": "18055846629",
-      "createdAt": "2026-10-23T20:51:55Z",
-      "actor": "quirq-gates",
-      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
-      "repo": "quirq-ai/xo",
-      "kind": "issue",
-      "verb": "opened issue",
-      "ref": {
-        "label": "#86",
-        "url": "https://github.com/quirq-ai/xo/issues/86"
-      },
-      "title": "Leftovers after #84/#85: logout wording, guide wrap, --gh test, --owner with KIND"
     }
   ]
 }
