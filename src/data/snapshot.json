@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-10-26T06:00:14.439Z",
+  "takenAt": "2026-10-26T12:00:12.257Z",
   "title": "Space portfolio",
   "tagline": "The public work of this space: every project, what it is, where it runs and what was pushed lately.",
   "siblings": [
@@ -792,8 +792,8 @@
       "stars": 0,
       "forks": 0,
       "openIssues": 1,
-      "openPRs": 1,
-      "pushedAt": "2026-10-24T11:55:47Z",
+      "openPRs": 2,
+      "pushedAt": "2026-10-26T10:41:12Z",
       "archived": false,
       "fork": false,
       "defaultBranch": "main",
@@ -987,6 +987,15 @@
         }
       ],
       "openPulls": [
+        {
+          "number": 10,
+          "title": "A builder can delete itself: spacehub auth delete",
+          "url": "https://github.com/quirq-ai/space-hub/pull/10",
+          "draft": false,
+          "at": "2026-10-26T10:41:24Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
         {
           "number": 9,
           "title": "Sizes: what each project and space stores",
@@ -1451,7 +1460,7 @@
       "forks": 0,
       "openIssues": 1,
       "openPRs": 0,
-      "pushedAt": "2026-10-23T19:33:03Z",
+      "pushedAt": "2026-10-26T09:03:50Z",
       "archived": false,
       "fork": false,
       "defaultBranch": "quirq",
@@ -1468,10 +1477,46 @@
         0,
         0,
         0,
-        24,
-        24
+        38,
+        14
       ],
       "commits": [
+        {
+          "oid": "4aa401f8d0184bc3ea6c48ef4a7e8874437ea7ab",
+          "shortOid": "4aa401f",
+          "headline": "Show repository website beside README in About dock",
+          "url": "https://github.com/quirq-ai/quirqy/commit/4aa401f8d0184bc3ea6c48ef4a7e8874437ea7ab",
+          "committedAt": "2026-10-23T19:32:57Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "54e1c343064728d9fac8ef8ab475c6a9ae6f95c5",
+          "shortOid": "54e1c34",
+          "headline": "Add About README folio and refine repository scenes",
+          "url": "https://github.com/quirq-ai/quirqy/commit/54e1c343064728d9fac8ef8ab475c6a9ae6f95c5",
+          "committedAt": "2026-10-23T18:53:39Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "5e6d5f67a0385b777e74cfa45e6afa3fd2ee14e0",
+          "shortOid": "5e6d5f6",
+          "headline": "Scale Data Lab trees with historical repository bytes",
+          "url": "https://github.com/quirq-ai/quirqy/commit/5e6d5f67a0385b777e74cfa45e6afa3fd2ee14e0",
+          "committedAt": "2026-10-21T16:06:48Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
+        {
+          "oid": "7c91ec408b4a70e8b5ff233a6422bae7f12b40f9",
+          "shortOid": "7c91ec4",
+          "headline": "Apply shared opacity to every dock surface",
+          "url": "https://github.com/quirq-ai/quirqy/commit/7c91ec408b4a70e8b5ff233a6422bae7f12b40f9",
+          "committedAt": "2026-10-21T14:23:18Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        },
         {
           "oid": "262ff7d284b91f6a76dc22114ce5e3ec4f92ca71",
           "shortOid": "262ff7d",
@@ -1615,42 +1660,6 @@
           "committedAt": "2026-10-19T10:25:07Z",
           "author": "sharmasuraj0123",
           "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
-        },
-        {
-          "oid": "5b2d5256f985ba6d2d4bb25618f947a49f0f3e23",
-          "shortOid": "5b2d525",
-          "headline": "Reset activity focus when category visibility changes",
-          "url": "https://github.com/quirq-ai/quirqy/commit/5b2d5256f985ba6d2d4bb25618f947a49f0f3e23",
-          "committedAt": "2026-10-19T10:22:41Z",
-          "author": "sharmasuraj0123",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
-        },
-        {
-          "oid": "417727f4c30571343f26a55912bc8c28c179c0e2",
-          "shortOid": "417727f",
-          "headline": "Refine root growth, contributor spacing, and dock navigation",
-          "url": "https://github.com/quirq-ai/quirqy/commit/417727f4c30571343f26a55912bc8c28c179c0e2",
-          "committedAt": "2026-10-19T10:21:30Z",
-          "author": "sharmasuraj0123",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
-        },
-        {
-          "oid": "152d0af08ac28d3042baf7e3bec1c3d4f13a6480",
-          "shortOid": "152d0af",
-          "headline": "Add Apps launcher for hidden Observatory labs",
-          "url": "https://github.com/quirq-ai/quirqy/commit/152d0af08ac28d3042baf7e3bec1c3d4f13a6480",
-          "committedAt": "2026-10-19T10:09:30Z",
-          "author": "sharmasuraj0123",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
-        },
-        {
-          "oid": "873362eca1fcec6901962545213c226aa9e316b1",
-          "shortOid": "873362e",
-          "headline": "Add labeled app tiles for dock controls",
-          "url": "https://github.com/quirq-ai/quirqy/commit/873362eca1fcec6901962545213c226aa9e316b1",
-          "committedAt": "2026-10-19T09:47:56Z",
-          "author": "sharmasuraj0123",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
         }
       ],
       "openPulls": [],
@@ -1687,7 +1696,7 @@
       "forks": 0,
       "openIssues": 0,
       "openPRs": 0,
-      "pushedAt": "2026-10-26T00:01:48Z",
+      "pushedAt": "2026-10-26T06:01:57Z",
       "archived": false,
       "fork": false,
       "defaultBranch": "main",
@@ -1705,9 +1714,18 @@
         0,
         0,
         0,
-        23
+        24
       ],
       "commits": [
+        {
+          "oid": "faada8fcdd56842be1e030220822338502ce5c11",
+          "shortOid": "faada8f",
+          "headline": "Hourly snapshot 2026-10-26 06:00 UTC",
+          "url": "https://github.com/quirq-gates/vercel-activity/commit/faada8fcdd56842be1e030220822338502ce5c11",
+          "committedAt": "2026-10-26T06:01:56Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
         {
           "oid": "7e02151067f91ec51434850bc79a0b84a5e2b152",
           "shortOid": "7e02151",
@@ -1878,15 +1896,6 @@
           "committedAt": "2026-10-23T21:01:53Z",
           "author": "quirq-gates",
           "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
-        },
-        {
-          "oid": "a38b8b160098148990b61ed98ee5e68f72b15160",
-          "shortOid": "a38b8b1",
-          "headline": "Support CLI-deployed projects and whole-team scope",
-          "url": "https://github.com/quirq-gates/vercel-activity/commit/a38b8b160098148990b61ed98ee5e68f72b15160",
-          "committedAt": "2026-10-23T21:01:47Z",
-          "author": "quirq-gates",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
         }
       ],
       "openPulls": [],
@@ -1913,7 +1922,7 @@
       "forks": 0,
       "openIssues": 0,
       "openPRs": 0,
-      "pushedAt": "2026-10-26T00:00:34Z",
+      "pushedAt": "2026-10-26T06:00:34Z",
       "archived": false,
       "fork": false,
       "defaultBranch": "main",
@@ -1931,9 +1940,18 @@
         0,
         0,
         0,
-        14
+        15
       ],
       "commits": [
+        {
+          "oid": "94620cb3fd85c2f62196767e8e5ca2ece1dabaea",
+          "shortOid": "94620cb",
+          "headline": "Hourly snapshot 2026-10-26 06:00 UTC",
+          "url": "https://github.com/quirq-gates/github-activity/commit/94620cb3fd85c2f62196767e8e5ca2ece1dabaea",
+          "committedAt": "2026-10-26T06:00:33Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
         {
           "oid": "13f367c1d4390cb58ee6bb45df7a232e2236853f",
           "shortOid": "13f367c",
@@ -2066,27 +2084,64 @@
     }
   ],
   "weekStarts": [
-    "2026-08-03T06:00:14.439Z",
-    "2026-08-10T06:00:14.439Z",
-    "2026-08-17T06:00:14.439Z",
-    "2026-08-24T06:00:14.439Z",
-    "2026-08-31T06:00:14.439Z",
-    "2026-09-07T06:00:14.439Z",
-    "2026-09-14T06:00:14.439Z",
-    "2026-09-21T06:00:14.439Z",
-    "2026-09-28T06:00:14.439Z",
-    "2026-10-05T06:00:14.439Z",
-    "2026-10-12T06:00:14.439Z",
-    "2026-10-19T06:00:14.439Z"
+    "2026-08-03T12:00:12.257Z",
+    "2026-08-10T12:00:12.257Z",
+    "2026-08-17T12:00:12.257Z",
+    "2026-08-24T12:00:12.257Z",
+    "2026-08-31T12:00:12.257Z",
+    "2026-09-07T12:00:12.257Z",
+    "2026-09-14T12:00:12.257Z",
+    "2026-09-21T12:00:12.257Z",
+    "2026-09-28T12:00:12.257Z",
+    "2026-10-05T12:00:12.257Z",
+    "2026-10-12T12:00:12.257Z",
+    "2026-10-19T12:00:12.257Z"
   ],
   "totals": {
-    "commits7d": 145,
+    "commits7d": 137,
     "activeRepos7d": 7,
-    "prsOpened7d": 42,
+    "prsOpened7d": 43,
     "prsMerged7d": 37,
     "issuesOpened7d": 21
   },
   "feed": [
+    {
+      "id": "18223520623",
+      "createdAt": "2026-10-26T10:41:24Z",
+      "actor": "sharmasuraj0123",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/36091186?",
+      "repo": "quirq-ai/space-hub",
+      "kind": "pr",
+      "verb": "opened pull request",
+      "ref": {
+        "label": "#10",
+        "url": "https://github.com/quirq-ai/space-hub/pull/10"
+      },
+      "title": "A builder can delete itself: spacehub auth delete"
+    },
+    {
+      "id": "25224519403",
+      "createdAt": "2026-10-26T10:41:13Z",
+      "actor": "sharmasuraj0123",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/36091186?",
+      "repo": "quirq-ai/space-hub",
+      "kind": "branch",
+      "verb": "created branch claude/delete-builder"
+    },
+    {
+      "id": "25200646103",
+      "createdAt": "2026-10-26T06:00:35Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-gates/github-activity",
+      "kind": "push",
+      "verb": "pushed to main",
+      "ref": {
+        "label": "94620cb",
+        "url": "https://github.com/quirq-gates/github-activity/commit/94620cb3fd85c2f62196767e8e5ca2ece1dabaea"
+      },
+      "title": "Hourly snapshot 2026-10-26 06:00 UTC"
+    },
     {
       "id": "25175916466",
       "createdAt": "2026-10-26T00:01:48Z",
@@ -2834,48 +2889,6 @@
         "url": "https://github.com/quirq-gates/vercel-activity/commit/bc9fc30f68757e2aeca2b00862c5e5be89cb9340"
       },
       "title": "Refresh snapshot"
-    },
-    {
-      "id": "24998544338",
-      "createdAt": "2026-10-24T06:13:24Z",
-      "actor": "quirq-gates",
-      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
-      "repo": "quirq-gates/vercel-activity",
-      "kind": "push",
-      "verb": "pushed to main",
-      "ref": {
-        "label": "473e823",
-        "url": "https://github.com/quirq-gates/vercel-activity/commit/473e823f3384f27d77eeda700b176fd9a5cd48dd"
-      },
-      "title": "Turn the dashboard into a static portfolio"
-    },
-    {
-      "id": "24998501161",
-      "createdAt": "2026-10-24T06:12:25Z",
-      "actor": "sharmasuraj0123",
-      "actorAvatar": "https://avatars.githubusercontent.com/u/36091186?",
-      "repo": "quirq-ai/space-hub",
-      "kind": "push",
-      "verb": "pushed to main",
-      "ref": {
-        "label": "aa39257",
-        "url": "https://github.com/quirq-ai/space-hub/commit/aa39257c5143b6e001b8f2d2dc0ccf8a77e5e60c"
-      },
-      "title": "Guide: how to edit a space together and how it works (#4)"
-    },
-    {
-      "id": "18087627571",
-      "createdAt": "2026-10-24T06:12:24Z",
-      "actor": "sharmasuraj0123",
-      "actorAvatar": "https://avatars.githubusercontent.com/u/36091186?",
-      "repo": "quirq-ai/space-hub",
-      "kind": "pr",
-      "verb": "merged pull request",
-      "ref": {
-        "label": "#4",
-        "url": "https://github.com/quirq-ai/space-hub/pull/4"
-      },
-      "title": "Guide: how to edit a space together and how it works"
     }
   ]
 }
