@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-10-25T18:00:14.425Z",
+  "takenAt": "2026-10-26T00:00:11.960Z",
   "title": "Space portfolio",
   "tagline": "The public work of this space: every project, what it is, where it runs and what was pushed lately.",
   "siblings": [
@@ -1094,8 +1094,8 @@
         0,
         0,
         0,
-        28,
-        10,
+        30,
+        8,
         1,
         2
       ],
@@ -1468,8 +1468,8 @@
         0,
         0,
         0,
-        11,
-        37
+        24,
+        24
       ],
       "commits": [
         {
@@ -1687,7 +1687,7 @@
       "forks": 0,
       "openIssues": 0,
       "openPRs": 0,
-      "pushedAt": "2026-10-25T12:02:07Z",
+      "pushedAt": "2026-10-25T18:01:54Z",
       "archived": false,
       "fork": false,
       "defaultBranch": "main",
@@ -1705,9 +1705,18 @@
         0,
         0,
         0,
-        21
+        22
       ],
       "commits": [
+        {
+          "oid": "a40583005abe87f654110d3357683f8b8b7cf912",
+          "shortOid": "a405830",
+          "headline": "Hourly snapshot 2026-10-25 18:00 UTC",
+          "url": "https://github.com/quirq-gates/vercel-activity/commit/a40583005abe87f654110d3357683f8b8b7cf912",
+          "committedAt": "2026-10-25T18:01:53Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
         {
           "oid": "4b5b64b0838ba796628fddabb8741213a77fd741",
           "shortOid": "4b5b64b",
@@ -1878,15 +1887,6 @@
           "committedAt": "2026-10-23T20:49:19Z",
           "author": "quirq-gates",
           "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
-        },
-        {
-          "oid": "89336e0d5d21754b44f11ab3bc09ad7f76ac470a",
-          "shortOid": "89336e0",
-          "headline": "Show only workspace projects; add account and domains page",
-          "url": "https://github.com/quirq-gates/vercel-activity/commit/89336e0d5d21754b44f11ab3bc09ad7f76ac470a",
-          "committedAt": "2026-10-23T20:38:04Z",
-          "author": "quirq-gates",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
         }
       ],
       "openPulls": [],
@@ -1913,7 +1913,7 @@
       "forks": 0,
       "openIssues": 0,
       "openPRs": 0,
-      "pushedAt": "2026-10-25T12:00:37Z",
+      "pushedAt": "2026-10-25T18:00:38Z",
       "archived": false,
       "fork": false,
       "defaultBranch": "main",
@@ -1931,9 +1931,18 @@
         0,
         0,
         0,
-        12
+        13
       ],
       "commits": [
+        {
+          "oid": "9b714710ea390f702669bc18d97c83f5f6982a6d",
+          "shortOid": "9b71471",
+          "headline": "Hourly snapshot 2026-10-25 18:00 UTC",
+          "url": "https://github.com/quirq-gates/github-activity/commit/9b714710ea390f702669bc18d97c83f5f6982a6d",
+          "committedAt": "2026-10-25T18:00:37Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
         {
           "oid": "f71245fa24daff6549694e241951129f0738e2e0",
           "shortOid": "f71245f",
@@ -2048,27 +2057,41 @@
     }
   ],
   "weekStarts": [
-    "2026-08-02T18:00:14.425Z",
-    "2026-08-09T18:00:14.425Z",
-    "2026-08-16T18:00:14.425Z",
-    "2026-08-23T18:00:14.425Z",
-    "2026-08-30T18:00:14.425Z",
-    "2026-09-06T18:00:14.425Z",
-    "2026-09-13T18:00:14.425Z",
-    "2026-09-20T18:00:14.425Z",
-    "2026-09-27T18:00:14.425Z",
-    "2026-10-04T18:00:14.425Z",
-    "2026-10-11T18:00:14.425Z",
-    "2026-10-18T18:00:14.425Z"
+    "2026-08-03T00:00:11.960Z",
+    "2026-08-10T00:00:11.960Z",
+    "2026-08-17T00:00:11.960Z",
+    "2026-08-24T00:00:11.960Z",
+    "2026-08-31T00:00:11.960Z",
+    "2026-09-07T00:00:11.960Z",
+    "2026-09-14T00:00:11.960Z",
+    "2026-09-21T00:00:11.960Z",
+    "2026-09-28T00:00:11.960Z",
+    "2026-10-05T00:00:11.960Z",
+    "2026-10-12T00:00:11.960Z",
+    "2026-10-19T00:00:11.960Z"
   ],
   "totals": {
-    "commits7d": 154,
+    "commits7d": 143,
     "activeRepos7d": 7,
-    "prsOpened7d": 46,
-    "prsMerged7d": 42,
+    "prsOpened7d": 42,
+    "prsMerged7d": 37,
     "issuesOpened7d": 21
   },
   "feed": [
+    {
+      "id": "25150292842",
+      "createdAt": "2026-10-25T18:01:55Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-gates/vercel-activity",
+      "kind": "push",
+      "verb": "pushed to main",
+      "ref": {
+        "label": "a405830",
+        "url": "https://github.com/quirq-gates/vercel-activity/commit/a40583005abe87f654110d3357683f8b8b7cf912"
+      },
+      "title": "Hourly snapshot 2026-10-25 18:00 UTC"
+    },
     {
       "id": "25124219879",
       "createdAt": "2026-10-25T12:02:08Z",
@@ -2839,20 +2862,6 @@
       "repo": "quirq-ai/space-hub",
       "kind": "branch",
       "verb": "created branch claude/guide-collab"
-    },
-    {
-      "id": "24998407636",
-      "createdAt": "2026-10-24T06:10:13Z",
-      "actor": "sharmasuraj0123",
-      "actorAvatar": "https://avatars.githubusercontent.com/u/36091186?",
-      "repo": "quirq-ai/space-hub",
-      "kind": "push",
-      "verb": "pushed to main",
-      "ref": {
-        "label": "f009252",
-        "url": "https://github.com/quirq-ai/space-hub/commit/f0092527fa7256c3f28dc9b9951fdd5cafb7a90f"
-      },
-      "title": "Edit one space together: members, autosync, presence, live pages (#3)"
     }
   ]
 }
