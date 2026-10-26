@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-10-26T00:00:11.960Z",
+  "takenAt": "2026-10-26T06:00:14.439Z",
   "title": "Space portfolio",
   "tagline": "The public work of this space: every project, what it is, where it runs and what was pushed lately.",
   "siblings": [
@@ -1687,7 +1687,7 @@
       "forks": 0,
       "openIssues": 0,
       "openPRs": 0,
-      "pushedAt": "2026-10-25T18:01:54Z",
+      "pushedAt": "2026-10-26T00:01:48Z",
       "archived": false,
       "fork": false,
       "defaultBranch": "main",
@@ -1705,9 +1705,18 @@
         0,
         0,
         0,
-        22
+        23
       ],
       "commits": [
+        {
+          "oid": "7e02151067f91ec51434850bc79a0b84a5e2b152",
+          "shortOid": "7e02151",
+          "headline": "Hourly snapshot 2026-10-26 00:00 UTC",
+          "url": "https://github.com/quirq-gates/vercel-activity/commit/7e02151067f91ec51434850bc79a0b84a5e2b152",
+          "committedAt": "2026-10-26T00:01:46Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
         {
           "oid": "a40583005abe87f654110d3357683f8b8b7cf912",
           "shortOid": "a405830",
@@ -1878,15 +1887,6 @@
           "committedAt": "2026-10-23T21:01:47Z",
           "author": "quirq-gates",
           "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
-        },
-        {
-          "oid": "98f7755ff76f7981b09b5c2f3223b828181d277d",
-          "shortOid": "98f7755",
-          "headline": "Point workspace.json at quirq-gates/vercel-activity",
-          "url": "https://github.com/quirq-gates/vercel-activity/commit/98f7755ff76f7981b09b5c2f3223b828181d277d",
-          "committedAt": "2026-10-23T20:49:19Z",
-          "author": "quirq-gates",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
         }
       ],
       "openPulls": [],
@@ -1913,7 +1913,7 @@
       "forks": 0,
       "openIssues": 0,
       "openPRs": 0,
-      "pushedAt": "2026-10-25T18:00:38Z",
+      "pushedAt": "2026-10-26T00:00:34Z",
       "archived": false,
       "fork": false,
       "defaultBranch": "main",
@@ -1931,9 +1931,18 @@
         0,
         0,
         0,
-        13
+        14
       ],
       "commits": [
+        {
+          "oid": "13f367c1d4390cb58ee6bb45df7a232e2236853f",
+          "shortOid": "13f367c",
+          "headline": "Hourly snapshot 2026-10-26 00:00 UTC",
+          "url": "https://github.com/quirq-gates/github-activity/commit/13f367c1d4390cb58ee6bb45df7a232e2236853f",
+          "committedAt": "2026-10-26T00:00:33Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
         {
           "oid": "9b714710ea390f702669bc18d97c83f5f6982a6d",
           "shortOid": "9b71471",
@@ -2057,27 +2066,41 @@
     }
   ],
   "weekStarts": [
-    "2026-08-03T00:00:11.960Z",
-    "2026-08-10T00:00:11.960Z",
-    "2026-08-17T00:00:11.960Z",
-    "2026-08-24T00:00:11.960Z",
-    "2026-08-31T00:00:11.960Z",
-    "2026-09-07T00:00:11.960Z",
-    "2026-09-14T00:00:11.960Z",
-    "2026-09-21T00:00:11.960Z",
-    "2026-09-28T00:00:11.960Z",
-    "2026-10-05T00:00:11.960Z",
-    "2026-10-12T00:00:11.960Z",
-    "2026-10-19T00:00:11.960Z"
+    "2026-08-03T06:00:14.439Z",
+    "2026-08-10T06:00:14.439Z",
+    "2026-08-17T06:00:14.439Z",
+    "2026-08-24T06:00:14.439Z",
+    "2026-08-31T06:00:14.439Z",
+    "2026-09-07T06:00:14.439Z",
+    "2026-09-14T06:00:14.439Z",
+    "2026-09-21T06:00:14.439Z",
+    "2026-09-28T06:00:14.439Z",
+    "2026-10-05T06:00:14.439Z",
+    "2026-10-12T06:00:14.439Z",
+    "2026-10-19T06:00:14.439Z"
   ],
   "totals": {
-    "commits7d": 143,
+    "commits7d": 145,
     "activeRepos7d": 7,
     "prsOpened7d": 42,
     "prsMerged7d": 37,
     "issuesOpened7d": 21
   },
   "feed": [
+    {
+      "id": "25175916466",
+      "createdAt": "2026-10-26T00:01:48Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-gates/vercel-activity",
+      "kind": "push",
+      "verb": "pushed to main",
+      "ref": {
+        "label": "7e02151",
+        "url": "https://github.com/quirq-gates/vercel-activity/commit/7e02151067f91ec51434850bc79a0b84a5e2b152"
+      },
+      "title": "Hourly snapshot 2026-10-26 00:00 UTC"
+    },
     {
       "id": "25150292842",
       "createdAt": "2026-10-25T18:01:55Z",
@@ -2131,6 +2154,20 @@
       "ref": {
         "label": "1e97be7",
         "url": "https://github.com/quirq-gates/vercel-activity/commit/1e97be751ff2211210423d5e5bd5bc88400050a5"
+      },
+      "title": "Hourly snapshot 2026-10-25 06:00 UTC"
+    },
+    {
+      "id": "25192625227",
+      "createdAt": "2026-10-25T06:01:07Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-gates/github-activity",
+      "kind": "push",
+      "verb": "pushed to main",
+      "ref": {
+        "label": "082d676",
+        "url": "https://github.com/quirq-gates/github-activity/commit/082d676fd3be827028f5677f11b9424d344a3099"
       },
       "title": "Hourly snapshot 2026-10-25 06:00 UTC"
     },
@@ -2839,29 +2876,6 @@
         "url": "https://github.com/quirq-ai/space-hub/pull/4"
       },
       "title": "Guide: how to edit a space together and how it works"
-    },
-    {
-      "id": "18087613784",
-      "createdAt": "2026-10-24T06:12:10Z",
-      "actor": "sharmasuraj0123",
-      "actorAvatar": "https://avatars.githubusercontent.com/u/36091186?",
-      "repo": "quirq-ai/space-hub",
-      "kind": "pr",
-      "verb": "opened pull request",
-      "ref": {
-        "label": "#4",
-        "url": "https://github.com/quirq-ai/space-hub/pull/4"
-      },
-      "title": "Guide: how to edit a space together and how it works"
-    },
-    {
-      "id": "24998487645",
-      "createdAt": "2026-10-24T06:12:07Z",
-      "actor": "sharmasuraj0123",
-      "actorAvatar": "https://avatars.githubusercontent.com/u/36091186?",
-      "repo": "quirq-ai/space-hub",
-      "kind": "branch",
-      "verb": "created branch claude/guide-collab"
     }
   ]
 }
