@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-10-28T00:00:10.677Z",
+  "takenAt": "2026-10-28T06:00:13.968Z",
   "title": "Space portfolio",
   "tagline": "The public work of this space: every project, what it is, where it runs and what was pushed lately.",
   "siblings": [
@@ -1166,8 +1166,8 @@
         0,
         0,
         0,
-        31,
-        7,
+        32,
+        6,
         1,
         2
       ],
@@ -1769,7 +1769,7 @@
       "forks": 0,
       "openIssues": 0,
       "openPRs": 0,
-      "pushedAt": "2026-10-27T18:01:56Z",
+      "pushedAt": "2026-10-28T00:01:37Z",
       "archived": false,
       "fork": false,
       "defaultBranch": "main",
@@ -1787,9 +1787,18 @@
         0,
         0,
         0,
-        30
+        31
       ],
       "commits": [
+        {
+          "oid": "58462ef3f6635018f52b552c267f22fced7fed30",
+          "shortOid": "58462ef",
+          "headline": "Hourly snapshot 2026-10-28 00:00 UTC",
+          "url": "https://github.com/quirq-gates/vercel-activity/commit/58462ef3f6635018f52b552c267f22fced7fed30",
+          "committedAt": "2026-10-28T00:01:35Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
         {
           "oid": "bc4194639dab38f859442583c78eccd7285073dc",
           "shortOid": "bc41946",
@@ -1960,15 +1969,6 @@
           "committedAt": "2026-10-24T07:56:48Z",
           "author": "quirq-gates",
           "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
-        },
-        {
-          "oid": "381b8e46afb6f5dd2c1b224e9209ec1c508aa4f4",
-          "shortOid": "381b8e4",
-          "headline": "Add dark mode and a light/dark switch",
-          "url": "https://github.com/quirq-gates/vercel-activity/commit/381b8e46afb6f5dd2c1b224e9209ec1c508aa4f4",
-          "committedAt": "2026-10-24T07:54:15Z",
-          "author": "quirq-gates",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
         }
       ],
       "openPulls": [],
@@ -1995,7 +1995,7 @@
       "forks": 0,
       "openIssues": 0,
       "openPRs": 0,
-      "pushedAt": "2026-10-27T18:00:31Z",
+      "pushedAt": "2026-10-28T00:00:29Z",
       "archived": false,
       "fork": false,
       "defaultBranch": "main",
@@ -2013,9 +2013,18 @@
         0,
         0,
         0,
-        21
+        22
       ],
       "commits": [
+        {
+          "oid": "1c8b7abc5a95235f1df4cf9612d4fd102a6be3ad",
+          "shortOid": "1c8b7ab",
+          "headline": "Hourly snapshot 2026-10-28 00:00 UTC",
+          "url": "https://github.com/quirq-gates/github-activity/commit/1c8b7abc5a95235f1df4cf9612d4fd102a6be3ad",
+          "committedAt": "2026-10-28T00:00:28Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
         {
           "oid": "d0d5d4c6db051112a3bbb6a00514b528974439f6",
           "shortOid": "d0d5d4c",
@@ -2186,15 +2195,6 @@
           "committedAt": "2026-10-24T06:15:55Z",
           "author": "quirq-gates",
           "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
-        },
-        {
-          "oid": "30e050d570e1d6c2e3c5647d4f118fd79c5621ea",
-          "shortOid": "30e050d",
-          "headline": "Turn github-activity into a static space portfolio",
-          "url": "https://github.com/quirq-gates/github-activity/commit/30e050d570e1d6c2e3c5647d4f118fd79c5621ea",
-          "committedAt": "2026-10-24T06:13:28Z",
-          "author": "quirq-gates",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
         }
       ],
       "openPulls": [],
@@ -2202,21 +2202,21 @@
     }
   ],
   "weekStarts": [
-    "2026-08-05T00:00:10.677Z",
-    "2026-08-12T00:00:10.677Z",
-    "2026-08-19T00:00:10.677Z",
-    "2026-08-26T00:00:10.677Z",
-    "2026-09-02T00:00:10.677Z",
-    "2026-09-09T00:00:10.677Z",
-    "2026-09-16T00:00:10.677Z",
-    "2026-09-23T00:00:10.677Z",
-    "2026-09-30T00:00:10.677Z",
-    "2026-10-07T00:00:10.677Z",
-    "2026-10-14T00:00:10.677Z",
-    "2026-10-21T00:00:10.677Z"
+    "2026-08-05T06:00:13.968Z",
+    "2026-08-12T06:00:13.968Z",
+    "2026-08-19T06:00:13.968Z",
+    "2026-08-26T06:00:13.968Z",
+    "2026-09-02T06:00:13.968Z",
+    "2026-09-09T06:00:13.968Z",
+    "2026-09-16T06:00:13.968Z",
+    "2026-09-23T06:00:13.968Z",
+    "2026-09-30T06:00:13.968Z",
+    "2026-10-07T06:00:13.968Z",
+    "2026-10-14T06:00:13.968Z",
+    "2026-10-21T06:00:13.968Z"
   ],
   "totals": {
-    "commits7d": 164,
+    "commits7d": 166,
     "activeRepos7d": 7,
     "prsOpened7d": 49,
     "prsMerged7d": 44,
@@ -2264,6 +2264,15 @@
         "url": "https://github.com/quirq-ai/quirqy/pull/3"
       },
       "title": "Fix Turbopack tracing warning and Vercel build on swarm-ui"
+    },
+    {
+      "id": "25383357196",
+      "createdAt": "2026-10-27T14:21:01Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/quirqy",
+      "kind": "branch",
+      "verb": "created branch claude/project-thread-21n1x5"
     },
     {
       "id": "18341025652",
@@ -2452,6 +2461,15 @@
       "title": "Hub copies are projects AGENT/NAME, never orgs"
     },
     {
+      "id": "25373464832",
+      "createdAt": "2026-10-27T12:12:06Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-ai/xo",
+      "kind": "branch",
+      "verb": "created branch claude/hub-project-create"
+    },
+    {
       "id": "25361842468",
       "createdAt": "2026-10-27T12:00:33Z",
       "actor": "quirq-gates",
@@ -2575,6 +2593,15 @@
         "url": "https://github.com/quirq-ai/space-hub/pull/18"
       },
       "title": "Team spaces are orgs now, in the data too"
+    },
+    {
+      "id": "25376763010",
+      "createdAt": "2026-10-27T10:06:00Z",
+      "actor": "sharmasuraj0123",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/36091186?",
+      "repo": "quirq-ai/space-hub",
+      "kind": "branch",
+      "verb": "created branch claude/orgs"
     },
     {
       "id": "18326924309",
@@ -2965,43 +2992,6 @@
       "repo": "sharmasuraj0123/xo-coworker",
       "kind": "other",
       "verb": "pull request review comment"
-    },
-    {
-      "id": "18252697801",
-      "createdAt": "2026-10-26T16:14:12Z",
-      "actor": "dwivedi-ai",
-      "actorAvatar": "https://avatars.githubusercontent.com/u/65527745?",
-      "repo": "sharmasuraj0123/xo-coworker",
-      "kind": "comment",
-      "verb": "commented on",
-      "ref": {
-        "label": "#35",
-        "url": "https://github.com/sharmasuraj0123/xo-coworker/pull/35"
-      },
-      "title": "Shells in the browser, a DNS-rebinding fix and a WebSocket tunnel in serve.py, plus the Interrupt button"
-    },
-    {
-      "id": "18252595142",
-      "createdAt": "2026-10-26T16:13:11Z",
-      "actor": "dwivedi-ai",
-      "actorAvatar": "https://avatars.githubusercontent.com/u/65527745?",
-      "repo": "sharmasuraj0123/xo-coworker",
-      "kind": "pr",
-      "verb": "opened pull request",
-      "ref": {
-        "label": "#37",
-        "url": "https://github.com/sharmasuraj0123/xo-coworker/pull/37"
-      },
-      "title": "Shells, Interrupt, Codex UI fixes, mobile gestures and coordinator messages in threads"
-    },
-    {
-      "id": "25349301646",
-      "createdAt": "2026-10-26T16:13:09Z",
-      "actor": "dwivedi-ai",
-      "actorAvatar": "https://avatars.githubusercontent.com/u/65527745?",
-      "repo": "sharmasuraj0123/xo-coworker",
-      "kind": "branch",
-      "verb": "created branch feat/shells-codex-mobile-coord"
     }
   ]
 }
