@@ -1,5 +1,5 @@
 {
-  "takenAt": "2026-11-03T18:00:13.587Z",
+  "takenAt": "2026-11-04T00:00:10.414Z",
   "title": "Space portfolio",
   "tagline": "The public work of this space: every project, what it is, where it runs and what was pushed lately.",
   "siblings": [
@@ -67,8 +67,8 @@
         0,
         0,
         0,
-        45,
-        28,
+        48,
+        25,
         4
       ],
       "commits": [
@@ -423,8 +423,8 @@
         0,
         0,
         0,
-        0,
-        5,
+        1,
+        4,
         52,
         1
       ],
@@ -783,8 +783,8 @@
       "stars": 0,
       "forks": 1,
       "openIssues": 6,
-      "openPRs": 0,
-      "pushedAt": "2026-11-03T11:09:23Z",
+      "openPRs": 1,
+      "pushedAt": "2026-11-03T19:29:14Z",
       "archived": false,
       "fork": false,
       "defaultBranch": "main",
@@ -801,8 +801,8 @@
         0,
         0,
         0,
-        27,
-        38
+        31,
+        34
       ],
       "commits": [
         {
@@ -986,7 +986,17 @@
           "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
         }
       ],
-      "openPulls": [],
+      "openPulls": [
+        {
+          "number": 53,
+          "title": "Bring back the v0 interface, rebuilt on main",
+          "url": "https://github.com/quirq-ai/space-hub/pull/53",
+          "draft": false,
+          "at": "2026-11-03T19:29:25Z",
+          "author": "sharmasuraj0123",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/36091186?u=7bf14a22ecbfbd7c6ca1e338ae6398b4e3837edb&v=4"
+        }
+      ],
       "mergedPulls": [
         {
           "number": 52,
@@ -1155,8 +1165,8 @@
         0,
         0,
         0,
-        30,
-        8,
+        31,
+        7,
         1,
         2,
         0
@@ -1759,7 +1769,7 @@
       "forks": 0,
       "openIssues": 0,
       "openPRs": 0,
-      "pushedAt": "2026-11-03T12:01:54Z",
+      "pushedAt": "2026-11-03T18:02:06Z",
       "archived": false,
       "fork": false,
       "defaultBranch": "main",
@@ -1776,10 +1786,19 @@
         0,
         0,
         0,
-        29,
+        30,
         28
       ],
       "commits": [
+        {
+          "oid": "aa2e27003eb87c0d2df99ae2a848d0b6e4f7d17d",
+          "shortOid": "aa2e270",
+          "headline": "Hourly snapshot 2026-11-03 18:00 UTC",
+          "url": "https://github.com/quirq-gates/vercel-activity/commit/aa2e27003eb87c0d2df99ae2a848d0b6e4f7d17d",
+          "committedAt": "2026-11-03T18:02:04Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
         {
           "oid": "20cd8c1ed6760cecbfc69e87c1974c454984a752",
           "shortOid": "20cd8c1",
@@ -1950,15 +1969,6 @@
           "committedAt": "2026-10-30T00:01:45Z",
           "author": "quirq-gates",
           "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
-        },
-        {
-          "oid": "0bf3a26d0528e5ff5effbd8efe050b42f5838502",
-          "shortOid": "0bf3a26",
-          "headline": "Hourly snapshot 2026-10-29 18:00 UTC",
-          "url": "https://github.com/quirq-gates/vercel-activity/commit/0bf3a26d0528e5ff5effbd8efe050b42f5838502",
-          "committedAt": "2026-10-29T18:02:00Z",
-          "author": "quirq-gates",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
         }
       ],
       "openPulls": [],
@@ -1985,7 +1995,7 @@
       "forks": 0,
       "openIssues": 0,
       "openPRs": 0,
-      "pushedAt": "2026-11-03T12:00:27Z",
+      "pushedAt": "2026-11-03T18:00:35Z",
       "archived": false,
       "fork": false,
       "defaultBranch": "main",
@@ -2002,10 +2012,19 @@
         0,
         0,
         0,
-        20,
+        21,
         28
       ],
       "commits": [
+        {
+          "oid": "363fa570e984c333b3784081dd9b12f63743f1e7",
+          "shortOid": "363fa57",
+          "headline": "Hourly snapshot 2026-11-03 18:00 UTC",
+          "url": "https://github.com/quirq-gates/github-activity/commit/363fa570e984c333b3784081dd9b12f63743f1e7",
+          "committedAt": "2026-11-03T18:00:33Z",
+          "author": "quirq-gates",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
+        },
         {
           "oid": "cfc31c355919718bc91bf3fd11201af82b24d8e1",
           "shortOid": "cfc31c3",
@@ -2176,15 +2195,6 @@
           "committedAt": "2026-10-30T00:00:31Z",
           "author": "quirq-gates",
           "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
-        },
-        {
-          "oid": "fe7a457bd872f0dfa8dc81a49984174361215d99",
-          "shortOid": "fe7a457",
-          "headline": "Hourly snapshot 2026-10-29 18:00 UTC",
-          "url": "https://github.com/quirq-gates/github-activity/commit/fe7a457bd872f0dfa8dc81a49984174361215d99",
-          "committedAt": "2026-10-29T18:00:28Z",
-          "author": "quirq-gates",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/333820652?v=4"
         }
       ],
       "openPulls": [],
@@ -2192,27 +2202,41 @@
     }
   ],
   "weekStarts": [
-    "2026-08-11T18:00:13.587Z",
-    "2026-08-18T18:00:13.587Z",
-    "2026-08-25T18:00:13.587Z",
-    "2026-09-01T18:00:13.587Z",
-    "2026-09-08T18:00:13.587Z",
-    "2026-09-15T18:00:13.587Z",
-    "2026-09-22T18:00:13.587Z",
-    "2026-09-29T18:00:13.587Z",
-    "2026-10-06T18:00:13.587Z",
-    "2026-10-13T18:00:13.587Z",
-    "2026-10-20T18:00:13.587Z",
-    "2026-10-27T18:00:13.587Z"
+    "2026-08-12T00:00:10.414Z",
+    "2026-08-19T00:00:10.414Z",
+    "2026-08-26T00:00:10.414Z",
+    "2026-09-02T00:00:10.414Z",
+    "2026-09-09T00:00:10.414Z",
+    "2026-09-16T00:00:10.414Z",
+    "2026-09-23T00:00:10.414Z",
+    "2026-09-30T00:00:10.414Z",
+    "2026-10-07T00:00:10.414Z",
+    "2026-10-14T00:00:10.414Z",
+    "2026-10-21T00:00:10.414Z",
+    "2026-10-28T00:00:10.414Z"
   ],
   "totals": {
-    "commits7d": 99,
+    "commits7d": 95,
     "activeRepos7d": 5,
-    "prsOpened7d": 44,
-    "prsMerged7d": 43,
-    "issuesOpened7d": 5
+    "prsOpened7d": 36,
+    "prsMerged7d": 35,
+    "issuesOpened7d": 0
   },
   "feed": [
+    {
+      "id": "19035494768",
+      "createdAt": "2026-11-03T19:29:25Z",
+      "actor": "sharmasuraj0123",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/36091186?",
+      "repo": "quirq-ai/space-hub",
+      "kind": "pr",
+      "verb": "opened pull request",
+      "ref": {
+        "label": "#53",
+        "url": "https://github.com/quirq-ai/space-hub/pull/53"
+      },
+      "title": "Bring back the v0 interface, rebuilt on main"
+    },
     {
       "id": "26057375106",
       "createdAt": "2026-11-03T12:01:55Z",
@@ -2592,6 +2616,29 @@
       "title": "Activity beside every place, who is live now, and an org overview"
     },
     {
+      "id": "26075998586",
+      "createdAt": "2026-11-02T12:02:16Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-gates/vercel-activity",
+      "kind": "push",
+      "verb": "pushed to main",
+      "ref": {
+        "label": "3888e22",
+        "url": "https://github.com/quirq-gates/vercel-activity/commit/3888e22782095187ca63403c1f1f271d3c98602e"
+      },
+      "title": "Hourly snapshot 2026-11-02 12:00 UTC"
+    },
+    {
+      "id": "26073304751",
+      "createdAt": "2026-11-02T09:56:27Z",
+      "actor": "sharmasuraj0123",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/36091186?",
+      "repo": "quirq-ai/space-hub",
+      "kind": "branch",
+      "verb": "deleted branch claude/backup-off-hub"
+    },
+    {
       "id": "18873162924",
       "createdAt": "2026-11-02T09:56:24Z",
       "actor": "sharmasuraj0123",
@@ -2604,6 +2651,34 @@
         "url": "https://github.com/quirq-ai/space-hub/pull/45"
       },
       "title": "Keep backups off the hub: sub-hubs copy its data live, and a backup container"
+    },
+    {
+      "id": "26061817923",
+      "createdAt": "2026-11-02T06:02:11Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-gates/vercel-activity",
+      "kind": "push",
+      "verb": "pushed to main",
+      "ref": {
+        "label": "78d302a",
+        "url": "https://github.com/quirq-gates/vercel-activity/commit/78d302a880d48042d60d185df90fb91df9c828d3"
+      },
+      "title": "Hourly snapshot 2026-11-02 06:00 UTC"
+    },
+    {
+      "id": "26070411108",
+      "createdAt": "2026-11-02T06:00:41Z",
+      "actor": "quirq-gates",
+      "actorAvatar": "https://avatars.githubusercontent.com/u/333820652?",
+      "repo": "quirq-gates/github-activity",
+      "kind": "push",
+      "verb": "pushed to main",
+      "ref": {
+        "label": "b63e950",
+        "url": "https://github.com/quirq-gates/github-activity/commit/b63e9501709b3168ac3869b60bbad2d9b0e0d2d2"
+      },
+      "title": "Hourly snapshot 2026-11-02 06:00 UTC"
     },
     {
       "id": "26045847206",
@@ -2947,71 +3022,6 @@
         "url": "https://github.com/quirq-ai/space-hub/pull/40"
       },
       "title": "Visitors who are not signed in land on quirq/quirq"
-    },
-    {
-      "id": "25895016490",
-      "createdAt": "2026-10-31T18:37:45Z",
-      "actor": "sharmasuraj0123",
-      "actorAvatar": "https://avatars.githubusercontent.com/u/36091186?",
-      "repo": "quirq-ai/space-hub",
-      "kind": "push",
-      "verb": "pushed to main",
-      "ref": {
-        "label": "147ad7b",
-        "url": "https://github.com/quirq-ai/space-hub/commit/147ad7bf76a24dc7530e509f30a37684cbad67ce"
-      },
-      "title": "Add CLI-driven automatic Sub-hub backups in Settings (#39)"
-    },
-    {
-      "id": "18766184805",
-      "createdAt": "2026-10-31T18:37:44Z",
-      "actor": "sharmasuraj0123",
-      "actorAvatar": "https://avatars.githubusercontent.com/u/36091186?",
-      "repo": "quirq-ai/space-hub",
-      "kind": "pr",
-      "verb": "merged pull request",
-      "ref": {
-        "label": "#39",
-        "url": "https://github.com/quirq-ai/space-hub/pull/39"
-      },
-      "title": "Add CLI-driven automatic Sub-hub backups in Settings"
-    },
-    {
-      "id": "18766172683",
-      "createdAt": "2026-10-31T18:37:28Z",
-      "actor": "sharmasuraj0123",
-      "actorAvatar": "https://avatars.githubusercontent.com/u/36091186?",
-      "repo": "quirq-ai/space-hub",
-      "kind": "pr",
-      "verb": "opened pull request",
-      "ref": {
-        "label": "#40",
-        "url": "https://github.com/quirq-ai/space-hub/pull/40"
-      },
-      "title": "Visitors who are not signed in land on quirq/quirq"
-    },
-    {
-      "id": "25903179403",
-      "createdAt": "2026-10-31T18:37:20Z",
-      "actor": "sharmasuraj0123",
-      "actorAvatar": "https://avatars.githubusercontent.com/u/36091186?",
-      "repo": "quirq-ai/space-hub",
-      "kind": "branch",
-      "verb": "created branch claude/visitor-home"
-    },
-    {
-      "id": "25918160478",
-      "createdAt": "2026-10-31T18:35:35Z",
-      "actor": "sharmasuraj0123",
-      "actorAvatar": "https://avatars.githubusercontent.com/u/36091186?",
-      "repo": "quirq-ai/space-hub",
-      "kind": "push",
-      "verb": "pushed to feat/sub-hubs",
-      "ref": {
-        "label": "261e6e8",
-        "url": "https://github.com/quirq-ai/space-hub/commit/261e6e8481d7206c369e3bdabd6444b82a389359"
-      },
-      "title": "Sub-hubs: resolve system links above storage paths (macOS /tmp, /var)"
     }
   ]
 }
